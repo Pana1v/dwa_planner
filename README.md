@@ -54,14 +54,20 @@ Running the Simulation
 1.  **Launch RViz for visualization:**
     
 
- `   ros2 launch turtlebot3_bringup rviz2.launch.py   `
+ `   rviz2   `
 
 Setting Goal Position
 ---------------------
 
-You can set the goal position by modifying the parameters in the launch file or by setting them directly:
+Set the goal position by modifying the parameters in the launch file or by setting them directly:
 
  `   ros2 run dwa_planner dwa_node --ros-args -p goal_x:=3.0 -p goal_y:=2.0   `
+
+### Demo Videos
+
+| Obstacle Avoidance | Dense Obstacles |
+|:------------------:|:-------------:|:-----------------:|
+| ![](demo_videos/obstacles.webm) | ![](demo_videos/dense.webm) |
 
 Parameter Tuning
 ----------------
