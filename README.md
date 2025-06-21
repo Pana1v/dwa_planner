@@ -64,10 +64,9 @@ Set the goal position by modifying the parameters in the launch file or by setti
  `   ros2 run dwa_planner dwa_node --ros-args -p goal_x:=3.0 -p goal_y:=2.0   `
 
 ### Demo Videos
-
-| Obstacle Avoidance | Dense Obstacles |
-|:------------------:|:-------------:|:-----------------:|
-| ![](demo_videos/obstacles.webm) | ![](demo_videos/dense.webm) |
+| Navigation Demo | Obstacle Avoidance | Dense Obstacles |
+|:--------------:|:------------------:|:--------------:|
+| ![Navigation demo (GIF)](demo_videos/nav.gif) | ![Obstacle Avoidance demo (GIF)](demo_videos/obstacles.gif) | ![Dense Obstacles demo (GIF)](demo_videos/dense.gif) |
 
 Parameter Tuning
 ----------------
