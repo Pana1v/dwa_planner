@@ -22,17 +22,18 @@ Installation
 1.  Clone this repository into your ROS2 workspace:
     
 
-Plain `bashcd ~/ros2_ws/src  git clone` 
+ `cd ~/ros2_ws/src  
+ git clone https://github.com/Pana1v/dwa_planner.git` 
 
 1.  Install dependencies:
     
 
-Plain `   bashcd ~/ros2_ws  rosdep install -i --from-path src --rosdistro humble -y   `
+ `   cd ~/ros2_ws  rosdep install -i --from-path src --rosdistro humble -y   `
 
 1.  Build the package:
     
 
-Plain `   bashcolcon build --packages-select dwa_planner  source install/setup.bash   `
+ `   colcon build --packages-select dwa_planner  source install/setup.   `
 
 Usage
 -----
@@ -43,31 +44,31 @@ Running the Simulation
 1.  **Launch TurtleBot3 World:**
     
 
-Plain `   bashexport TURTLEBOT3_MODEL=burger  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py   `
+ `   export TURTLEBOT3_MODEL=burger  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py   `
 
 1.  **Start the DWA planner:**
     
 
-Plain `   bashros2 run dwa_planner dwa_node   `
+ `   ros2 run dwa_planner dwa_node   `
 
 1.  **Launch RViz for visualization:**
     
 
-Plain `   bashros2 launch turtlebot3_bringup rviz2.launch.py   `
+ `   ros2 launch turtlebot3_bringup rviz2.launch.py   `
 
 Setting Goal Position
 ---------------------
 
 You can set the goal position by modifying the parameters in the launch file or by setting them directly:
 
-Plain `   bashros2 run dwa_planner dwa_node --ros-args -p goal_x:=3.0 -p goal_y:=2.0   `
+ `   ros2 run dwa_planner dwa_node --ros-args -p goal_x:=3.0 -p goal_y:=2.0   `
 
 Parameter Tuning
 ----------------
 
 Key parameters that can be adjusted:
 
-Plain `   bashros2 run dwa_planner dwa_node --ros-args \    -p max_speed:=0.3 \    -p max_rotation_speed:=2.0 \    -p tolerance:=0.5 \    -p trajectory_length:=100   `
+ `   ros2 run dwa_planner dwa_node --ros-args \    -p max_speed:=0.3 \    -p max_rotation_speed:=2.0 \    -p tolerance:=0.5 \    -p trajectory_length:=100   `
 
 Visualization
 -------------
