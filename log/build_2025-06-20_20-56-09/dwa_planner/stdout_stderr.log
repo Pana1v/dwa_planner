@@ -1,0 +1,252 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor[m[K’ does not name a type
+   60 |     [01;31m[Ksensor[m[K::msg::LaserScan current_scan;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:66:55:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   66 | _distribution<double> speed_dist([01;31m[K0[m[K,max_speed);
+      |                                  [01;31m[K^[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:66:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:58:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K-[m[K’ token
+   67 | stribution<double> rotation_dist([01;31m[K-[m[Kmax_rotation_speed, max_rotation_speed);
+      |                                  [01;31m[K^[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K-[m[K’ token
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In constructor ‘[01m[KDWA_node::DWA_node()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:43:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::uniform_real_distribution<double> DWA_node::speed_dist(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   43 |     [01;31m[Kspeed_dist[m[K = std::make_unique<std::uniform_real_distribution<double>>(0, max_speed);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:44:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::uniform_real_distribution<double> DWA_node::rotation_dist(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   44 |     [01;31m[Krotation_dist[m[K = std::make_unique<std::uniform_real_distribution<double>>(-max_rotation_speed, max_rotation_speed);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_scan[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_odom[m[K’?
+   86 |         [01;31m[Kcurrent_scan[m[K = *msg;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Kcurrent_odom[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<double, double> > DWA_node::motion_ranges(double, double, double, const Odometry&)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:103:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+  103 |         double x = [01;31m[Kodom_data[m[K.pose.pose.position.x;
+      |                    [01;31m[K^~~~~~~~~[m[K
+      |                    [32m[Krandom_data[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kyf2[m[K’ has not been declared
+  106 |         [01;31m[Kyf2[m[K::Quaternion q(odom_data.pose.pose.orientation.x,
+      |         [01;31m[K^~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:111:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+  111 |         tf2::Matrix3x3 m([01;31m[Kq[m[K);
+      |                          [01;31m[K^[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:115:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_length[m[K’ was not declared in this scope
+  115 |         for(int i =0;i<[01;31m[Ktrajectory_length[m[K;i++)
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:117:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_rate[m[K’ was not declared in this scope; did you mean ‘[01m[Ktruncate[m[K’?
+  117 |             yaw+=[01;31m[Kturn_rate[m[K * time_step;
+      |                  [01;31m[K^~~~~~~~~[m[K
+      |                  [32m[Ktruncate[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotation_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | tion_ranges(double speed, [01;35m[Kdouble rotation_speed[m[K, double time_step, const nav_msgs::msg::Odometry& odom)
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kodom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | e_step, [01;35m[Kconst nav_msgs::msg::Odometry& odom[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:128:26:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::uniform_real_distribution<double> DWA_node::speed_dist(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  128 |         double speed = (*[01;31m[Kspeed_dist[m[K)(gen);
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:129:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::random_device[m[K’ to ‘[01m[Kint[m[K’
+  129 |   double rotation_speed = rotation_dist([01;31m[Krd[m[K);
+      |                                         [01;31m[K^~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kstd::random_device[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:58:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::uniform_real_distribution<double> DWA_node::rotation_dist(int)[m[K’
+   67 | stribution<double> rotation_dist([01;36m[K-[m[Kmax_rotation_speed, max_rotation_speed);
+      |                                  [01;36m[K^[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:132:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDWA_node::motion_ranges(double&, double&)[m[K’
+  132 | uble>> trajectory = [01;31m[Kmotion_ranges(speed, rotation_speed)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<double, double> > DWA_node::motion_ranges(double, double, double, const Odometry&)[m[K’
+  100 |    vector <pair<double, double>> [01;36m[Kmotion_ranges[m[K(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom)
+      |                                  [01;36m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:35:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:130:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  130 |         double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kdouble DWA_node::collision_avoidance(const std::vector<std::pair<double, double> >&, const LaserScan&, const Odometry&, double)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:138:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+  138 |         if([01;31m[Kscan[m[K.ranges.empty())
+      |            [01;31m[K^~~~[m[K
+      |            [32m[Kscanf[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+  140 |   RCLCPP_WARN(this->get_logger() [01;31m[K"No Laser scan data available"[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  140 |             [01;36m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+  140 |   RCLCPP_WARN(this->get_logger() [01;31m[K"No Laser scan data available"[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  140 |             [01;36m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  140 |             [01;36m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  140 |             [01;36m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  140 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger() "No Laser scan data available");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:151:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_data[m[K’?
+  151 |             if (distance < [01;31m[Kscan_data_[m[K->ranges[scan_index] - tolerance) {
+      |                            [01;31m[K^~~~~~~~~~[m[K
+      |                            [32m[Kscan_data[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:151:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_index[m[K’ was not declared in this scope
+  151 | f (distance < scan_data_->ranges[[01;31m[Kscan_index[m[K] - tolerance) {
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:152:25:[m[K [01;31m[Kerror: [m[K‘[01m[KINT_MAX[m[K’ was not declared in this scope
+  152 |                 return -[01;31m[KINT_MAX[m[K;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:19:1:[m[K [01;36m[Knote: [m[K‘[01m[KINT_MAX[m[K’ is defined in header ‘[01m[K<climits>[m[K’; did you forget to ‘[01m[K#include <climits>[m[K’?
+   18 | #include <tf2/LinearMath/Matrix3x3.h>
+  +++ |+[32m[K#include <climits>[m[K
+   19 | 
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:149:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  149 |             int [01;35m[Kindex[m[K = static_cast<int>((atan2(y - current_odom.pose.pose.position.y, x - current_odom.pose.pose.position.x)+M_PI) / (2*M_PI)) * scan_data.ranges.size();
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const std::vector<std::pair<double, double> >&, const Odometry&, const LaserScan&)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:159:29:[m[K [01;31m[Kerror: [m[K‘[01m[KINT_MAX[m[K’ was not declared in this scope
+  159 |         double best_score = [01;31m[KINT_MAX[m[K;
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:159:29:[m[K [01;36m[Knote: [m[K‘[01m[KINT_MAX[m[K’ is defined in header ‘[01m[K<climits>[m[K’; did you forget to ‘[01m[K#include <climits>[m[K’?
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:163:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+  163 |         if([01;31m[Kodom_data[m[K==NULL || scan_data==NULL)
+      |            [01;31m[K^~~~~~~~~[m[K
+      |            [32m[Krandom_data[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:163:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+  163 |         if(odom_data==NULL || [01;31m[Kscan_data[m[K==NULL)
+      |                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:169:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+  169 |         double x = [01;31m[Kodom_data[m[K->pose.pose.position.x;
+      |                    [01;31m[K^~~~~~~~~[m[K
+      |                    [32m[Krandom_data[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:171:29:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  171 |         double theta = tf2::[01;31m[KgetYaw[m[K(odom_data->pose.pose.orientation);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_tolerance[m[K’ was not declared in this scope
+  175 |         if(goal_distance < [01;31m[Kgoal_tolerance[m[K)
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:182:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble best_score[m[K’
+  182 |         double [01;31m[Kbest_score[m[K = -INT_MAX;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:159:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble best_score[m[K’ previously declared here
+  159 |         double [01;36m[Kbest_score[m[K = INT_MAX;
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:183:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble best_speed[m[K’
+  183 |         double [01;31m[Kbest_speed[m[K = 0.0, best_rotation_speed = 0.0;\
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:160:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble best_speed[m[K’ previously declared here
+  160 |         double [01;36m[Kbest_speed[m[K = 0.0;
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:183:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble best_rotation_speed[m[K’
+  183 |         double best_speed = 0.0, [01;31m[Kbest_rotation_speed[m[K = 0.0;\
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:161:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble best_rotation_speed[m[K’ previously declared here
+  161 |         double [01;36m[Kbest_rotation_speed[m[K = 0.0;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:194:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+  194 |  collision_avoidance(trajectory, [01;31m[Kscan_data[m[K, odom_data, tolerance);
+      |                                  [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:194:93:[m[K [01;31m[Kerror: [m[K‘[01m[Ktolerance[m[K’ was not declared in this scope
+  194 | rajectory, scan_data, odom_data, [01;31m[Ktolerance[m[K);
+      |                                  [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:195:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn[m[K’ was not declared in this scope
+  195 |       double smoothness_factor = [01;31m[Kturn[m[K*rotation_speed * 0.5;
+      |                                  [01;31m[K^~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:198:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_score[m[K’ was not declared in this scope
+  198 |             if([01;31m[Ktotal_score[m[K > best_score)
+      |                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:173:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_angle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  173 |         double [01;35m[Kgoal_angle[m[K = atan2(goal_y-y, goal_x-x)-theta;
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:157:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 | [01;35m[Kst vector<pair<double, double>>& trajectory[m[K, const nav_msgs::msg::Odometry& odom, const sensor_msgs::msg::LaserScan& scan)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:157:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kodom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 | , [01;35m[Kconst nav_msgs::msg::Odometry& odom[m[K, const sensor_msgs::msg::LaserScan& scan)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:157:158:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 | om, [01;35m[Kconst sensor_msgs::msg::LaserScan& scan[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:215:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+  215 |         if(![01;31m[Kodom_data[m[K || !scan_data)
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Krandom_data[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:215:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+  215 |         if(!odom_data || ![01;31m[Kscan_data[m[K)
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:221:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope
+  221 | st_rotation_speed] = dwa_control([01;31m[Ktrajectory[m[K, current_scan);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:221:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_scan[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_odom[m[K’?
+  221 | speed] = dwa_control(trajectory, [01;31m[Kcurrent_scan[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+      |                                  [32m[Kcurrent_odom[m[K
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

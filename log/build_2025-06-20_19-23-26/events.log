@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (-) JobUnselected: {'identifier': 'dwa_planner'}
+[0.000609] (-) EventReactorShutdown: {}

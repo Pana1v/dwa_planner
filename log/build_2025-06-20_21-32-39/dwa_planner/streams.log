@@ -1,0 +1,1495 @@
+[0.010s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.600s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In constructor ‘[01m[KDWA_node::DWA_node()[m[K’:
+[1.600s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_step[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.600s]    37 |     [01;31m[Ktime_step[m[K = this->declare_parameter<float>("time_step",0.1);
+[1.600s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.600s]       |     [32m[Ktimespec[m[K
+[1.611s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.612s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.612s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.612s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:96:41:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[Kr[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.612s]    96 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, static_cast<int>(current_scan.ranges.size()));
+[1.612s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.612s] 
+[1.612s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:96:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.612s]    96 | ogger(), "Laser scan received: % [01;36m[Kr[m[Kanges", static_cast<int>(current_scan.ranges.size()));
+[1.612s]       |                                  [01;36m[K^[m[K
+[1.612s] 
+[1.612s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.612s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.613s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:96:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.613s]    96 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, static_cast<int>(current_scan.ranges.size()));
+[1.613s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.613s] 
+[1.619s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<double, double> > DWA_node::motion_ranges(double, double, double, const Odometry&)[m[K’:
+[1.619s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:112:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.619s]   112 |         double x = [01;31m[Kodom_data[m[K.pose.pose.position.x;
+[1.619s]       |                    [01;31m[K^~~~~~~~~[m[K
+[1.619s]       |                    [32m[Krandom_data[m[K
+[1.621s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:109:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kodom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.621s]   109 | e_step, [01;35m[Kconst nav_msgs::msg::Odometry& odom[m[K)
+[1.621s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.621s] 
+[1.621s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[1.621s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:141:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDWA_node::motion_ranges(double&, double&)[m[K’
+[1.621s]   141 | uble>> trajectory = [01;31m[Kmotion_ranges(speed, rotation_speed)[m[K;
+[1.622s]       |                     [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.622s] 
+[1.622s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:109:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<double, double> > DWA_node::motion_ranges(double, double, double, const Odometry&)[m[K’
+[1.622s]   109 |    vector <pair<double, double>> [01;36m[Kmotion_ranges[m[K(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom)
+[1.622s]       |                                  [01;36m[K^~~~~~~~~~~~~[m[K
+[1.622s] 
+[1.622s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:109:35:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[1.622s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:139:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.623s]   139 |         double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[1.623s]       |                [01;35m[K^~~~~~~~~[m[K
+[1.628s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kdouble DWA_node::collision_avoidance(const std::vector<std::pair<double, double> >&, const LaserScan&, const Odometry&, double)[m[K’:
+[1.628s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:160:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[1.628s]   160 |          if (distance < scan_data[01;31m[K->[m[Kranges[scan_index] - tolerance) {
+[1.628s]       |                                  [01;31m[K^~[m[K
+[1.628s] 
+[1.633s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:160:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_index[m[K’ was not declared in this scope
+[1.633s]   160 | if (distance < scan_data->ranges[[01;31m[Kscan_index[m[K] - tolerance) {
+[1.633s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[1.633s] 
+[1.633s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:161:25:[m[K [01;31m[Kerror: [m[K‘[01m[KINT_MAX[m[K’ was not declared in this scope
+[1.633s]   161 |                 return -[01;31m[KINT_MAX[m[K;
+[1.633s]       |                         [01;31m[K^~~~~~~[m[K
+[1.633s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:19:1:[m[K [01;36m[Knote: [m[K‘[01m[KINT_MAX[m[K’ is defined in header ‘[01m[K<climits>[m[K’; did you forget to ‘[01m[K#include <climits>[m[K’?
+[1.633s]    18 | #include <tf2/LinearMath/Matrix3x3.h>
+[1.633s]   +++ |+[32m[K#include <climits>[m[K
+[1.634s]    19 | 
+[1.634s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:158:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.634s]   158 |             int [01;35m[Kindex[m[K = static_cast<int>((atan2(y - current_odom.pose.pose.position.y, x - current_odom.pose.pose.position.x)+M_PI) / (2*M_PI)) * scan_data.ranges.size();
+[1.634s]       |                 [01;35m[K^~~~~[m[K
+[1.634s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const std::vector<std::pair<double, double> >&, const Odometry&, const LaserScan&)[m[K’:
+[1.634s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} and ‘[01m[Klong int[m[K’)
+[1.634s]   172 |         if(odom[01;31m[K=[m[K=NULL || scan_data==NULL)
+[1.634s]       |                [01;31m[K^[m[K
+[1.634s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[1.634s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:6[m[K:
+[1.634s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:149:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool nav_msgs::msg::Odometry_<ContainerAllocator>::operator==(const nav_msgs::msg::Odometry_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>][m[K’
+[1.634s]   149 |   bool [01;36m[Koperator[m[K==(const Odometry_ & other) const
+[1.634s]       |        [01;36m[K^~~~~~~~[m[K
+[1.634s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:149:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >&[m[K’
+[1.634s]   149 | ool operator==([01;36m[Kconst Odometry_ & other[m[K) const
+[1.634s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.634s] 
+[1.634s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[1.634s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.634s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.635s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[1.635s]   466 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[1.635s]       |     [01;36m[K^~~~~~~~[m[K
+[1.635s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.635s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.635s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.635s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.635s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[1.635s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.635s]       |                  [01;36m[K^~~~[m[K
+[1.635s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.635s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.635s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[1.635s]   420 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[1.635s]       |     [01;36m[K^~~~~~~~[m[K
+[1.635s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.635s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.635s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.636s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.636s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[1.636s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.636s]       |                  [01;36m[K^~~~[m[K
+[1.636s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.636s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.637s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.637s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[1.637s]   459 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[1.637s]       |     [01;36m[K^~~~~~~~[m[K
+[1.637s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.637s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.637s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.638s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.638s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[1.638s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.638s]       |                  [01;36m[K^~~~[m[K
+[1.638s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.638s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.638s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.638s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[1.638s]  1585 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[1.638s]       |     [01;36m[K^~~~~~~~[m[K
+[1.638s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.638s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.638s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.638s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.639s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[1.639s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.639s]       |                  [01;36m[K^~~~[m[K
+[1.639s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.639s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.639s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.639s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[1.639s]  1648 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[1.639s]       |     [01;36m[K^~~~~~~~[m[K
+[1.639s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.639s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.639s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.639s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.639s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[1.639s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.639s]       |                  [01;36m[K^~~~[m[K
+[1.639s] In file included from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.639s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.639s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+[1.640s]   218 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[1.640s]       |     [01;36m[K^~~~~~~~[m[K
+[1.640s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.640s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.640s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.641s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.641s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[1.641s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.641s]       |                  [01;36m[K^~~~[m[K
+[1.641s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[1.641s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[1.641s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.641s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.641s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[1.641s]   276 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[1.641s]       |     [01;36m[K^~~~~~~~[m[K
+[1.641s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.641s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.641s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.641s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.642s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.642s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[1.642s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.642s]       |                  [01;36m[K^~~~[m[K
+[1.642s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[1.642s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.642s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.642s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[1.642s]  1524 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[1.642s]       |     [01;36m[K^~~~~~~~[m[K
+[1.642s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.642s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.642s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.643s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.643s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[1.643s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.643s]       |                  [01;36m[K^~~~[m[K
+[1.643s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.643s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.643s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[1.643s]   753 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[1.643s]       |     [01;36m[K^~~~~~~~[m[K
+[1.643s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.643s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.643s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.643s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.643s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[1.644s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.644s]       |                  [01;36m[K^~~~[m[K
+[1.644s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.644s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.644s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[1.644s]   760 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[1.644s]       |     [01;36m[K^~~~~~~~[m[K
+[1.644s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.644s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.644s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.644s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.644s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[1.644s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.644s]       |                  [01;36m[K^~~~[m[K
+[1.644s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.644s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.644s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[1.644s]   767 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[1.644s]       |     [01;36m[K^~~~~~~~[m[K
+[1.644s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.644s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.644s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.644s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.645s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.645s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.645s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.645s]       |                  [01;36m[K^~~~[m[K
+[1.645s] In file included from [01m[K/usr/include/c++/11/iosfwd:40[m[K,
+[1.645s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[1.645s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.645s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.645s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[1.645s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[1.645s]       |     [01;36m[K^~~~~~~~[m[K
+[1.645s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.645s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.645s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.645s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.645s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[1.645s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.645s]       |                  [01;36m[K^~~~[m[K
+[1.645s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.645s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.645s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.646s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[1.646s]  1410 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[1.646s]       |     [01;36m[K^~~~~~~~[m[K
+[1.646s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.646s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.646s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.646s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.646s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[1.646s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.646s]       |                  [01;36m[K^~~~[m[K
+[1.646s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.646s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.646s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.646s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[1.646s]  1416 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[1.646s]       |     [01;36m[K^~~~~~~~[m[K
+[1.646s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.646s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.646s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.646s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.647s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.647s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[1.647s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.647s]       |                  [01;36m[K^~~~[m[K
+[1.647s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.647s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.647s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.647s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[1.647s]  1436 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[1.647s]       |     [01;36m[K^~~~~~~~[m[K
+[1.647s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.647s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.647s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.647s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.647s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.647s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.647s]       |                  [01;36m[K^~~~[m[K
+[1.647s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.647s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.647s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[1.647s]   437 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[1.647s]       |     [01;36m[K^~~~~~~~[m[K
+[1.648s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.648s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.648s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.648s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.648s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[1.648s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.648s]       |                  [01;36m[K^~~~[m[K
+[1.648s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.648s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.648s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[1.648s]   443 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[1.648s]       |     [01;36m[K^~~~~~~~[m[K
+[1.648s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.648s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.648s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.649s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.649s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[1.649s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.649s]       |                  [01;36m[K^~~~[m[K
+[1.649s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.649s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.649s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[1.649s]   464 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[1.649s]       |     [01;36m[K^~~~~~~~[m[K
+[1.649s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.649s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.649s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.649s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.649s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.649s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.649s]       |                  [01;36m[K^~~~[m[K
+[1.649s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.649s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.650s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.650s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[1.650s]   535 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[1.650s]       |     [01;36m[K^~~~~~~~[m[K
+[1.650s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.650s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.650s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.650s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.650s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[1.650s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.650s]       |                  [01;36m[K^~~~[m[K
+[1.650s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.650s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.650s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.650s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.650s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.650s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.650s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.650s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[1.650s]   541 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[1.650s]       |     [01;36m[K^~~~~~~~[m[K
+[1.650s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.650s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.650s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.651s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.651s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[1.651s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.651s]       |                  [01;36m[K^~~~[m[K
+[1.651s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[1.651s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.651s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.651s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.651s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.651s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.651s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.651s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[1.651s]   564 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[1.651s]       |     [01;36m[K^~~~~~~~[m[K
+[1.651s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.651s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.651s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.651s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.651s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Klong int[m[K’
+[1.652s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.652s]       |                  [01;36m[K^~~~[m[K
+[1.652s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.652s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.652s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.652s]  6226 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.652s]       |     [01;36m[K^~~~~~~~[m[K
+[1.652s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.652s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.652s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.652s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.652s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[1.652s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.652s]       |                  [01;36m[K^~~~[m[K
+[1.652s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.652s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.652s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.652s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[1.652s]  6234 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[1.653s]       |     [01;36m[K^~~~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.653s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.653s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.653s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.653s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’
+[1.653s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.653s]       |                  [01;36m[K^~~~[m[K
+[1.653s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.653s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.653s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.653s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.653s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.653s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.653s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[1.653s]  6248 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.653s]       |     [01;36m[K^~~~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.653s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.653s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.653s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.654s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.654s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[1.654s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.654s]       |                  [01;36m[K^~~~[m[K
+[1.654s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.654s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[1.654s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[1.654s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.654s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.654s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.654s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.654s]  6289 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[1.654s]       |     [01;36m[K^~~~~~~~[m[K
+[1.654s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.654s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.654s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.654s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.654s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’
+[1.654s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.654s]       |                  [01;36m[K^~~~[m[K
+[1.655s] In file included from [01m[K/usr/include/c++/11/future:47[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.655s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.655s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[1.655s]   718 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[1.655s]       |     [01;36m[K^~~~~~~~[m[K
+[1.655s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.655s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.655s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.655s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.655s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[1.655s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.655s]       |                  [01;36m[K^~~~[m[K
+[1.655s] In file included from [01m[K/usr/include/c++/11/future:47[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.655s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.655s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[1.655s]   725 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[1.655s]       |     [01;36m[K^~~~~~~~[m[K
+[1.655s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.655s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.655s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.655s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.656s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.656s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Klong int[m[K’
+[1.656s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.656s]       |                  [01;36m[K^~~~[m[K
+[1.656s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.656s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.656s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[1.656s]   985 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[1.656s]       |     [01;36m[K^~~~~~~~[m[K
+[1.656s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.656s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.656s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.656s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.656s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[1.656s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.656s]       |                  [01;36m[K^~~~[m[K
+[1.656s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.656s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.656s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[1.656s]   971 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[1.656s]       |     [01;36m[K^~~~~~~~[m[K
+[1.657s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.657s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.657s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.657s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.657s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[1.657s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.657s]       |                  [01;36m[K^~~~[m[K
+[1.657s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.657s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.657s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.657s]  2134 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[1.657s]       |     [01;36m[K^~~~~~~~[m[K
+[1.657s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.657s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.657s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.658s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.658s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.658s]       |                  [01;36m[K^~~~[m[K
+[1.658s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.658s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.658s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.658s]  2148 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[1.658s]       |     [01;36m[K^~~~~~~~[m[K
+[1.658s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.658s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.658s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.658s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.658s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.658s]       |                  [01;36m[K^~~~[m[K
+[1.658s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.658s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.658s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.658s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.658s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.658s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[1.659s]  1892 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[1.659s]       |     [01;36m[K^~~~~~~~[m[K
+[1.659s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.659s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.659s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.659s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.659s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[1.659s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.659s]       |                  [01;36m[K^~~~[m[K
+[1.659s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[1.659s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[1.659s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[1.659s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[1.659s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.659s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.659s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[1.659s]   226 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[1.659s]       |     [01;36m[K^~~~~~~~[m[K
+[1.659s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.659s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.659s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.660s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.660s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[1.660s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.660s]       |                  [01;36m[K^~~~[m[K
+[1.660s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.660s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.660s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[1.660s]  2030 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[1.660s]       |     [01;36m[K^~~~~~~~[m[K
+[1.660s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.660s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.660s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.660s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.661s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[1.661s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.661s]       |                  [01;36m[K^~~~[m[K
+[1.661s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.661s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.661s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[1.661s]  1463 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[1.661s]       |     [01;36m[K^~~~~~~~[m[K
+[1.661s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.661s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.661s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.661s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.661s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[1.661s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.661s]       |                  [01;36m[K^~~~[m[K
+[1.661s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.661s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.661s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[1.661s]  1128 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[1.661s]       |     [01;36m[K^~~~~~~~[m[K
+[1.661s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.662s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.662s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.662s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.662s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[1.662s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.662s]       |                  [01;36m[K^~~~[m[K
+[1.662s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.662s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.662s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.662s]  1804 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[1.662s]       |     [01;36m[K^~~~~~~~[m[K
+[1.662s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.662s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.662s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.662s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.663s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.663s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.663s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.663s]       |                  [01;36m[K^~~~[m[K
+[1.663s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.663s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.663s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[1.663s]  1818 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[1.663s]       |     [01;36m[K^~~~~~~~[m[K
+[1.663s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.663s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.663s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.663s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.663s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[1.663s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.663s]       |                  [01;36m[K^~~~[m[K
+[1.663s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.664s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.664s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[1.664s]  1045 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[1.664s]       |     [01;36m[K^~~~~~~~[m[K
+[1.664s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.664s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.664s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.664s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.664s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[1.664s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.664s]       |                  [01;36m[K^~~~[m[K
+[1.664s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.664s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.664s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[1.664s]  1105 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[1.664s]       |     [01;36m[K^~~~~~~~[m[K
+[1.664s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.665s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.665s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.665s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.665s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[1.665s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.665s]       |                  [01;36m[K^~~~[m[K
+[1.665s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.665s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.665s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[1.665s]  1116 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[1.665s]       |     [01;36m[K^~~~~~~~[m[K
+[1.665s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.665s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.665s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.666s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.666s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.666s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.666s]       |                  [01;36m[K^~~~[m[K
+[1.666s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.666s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.666s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+[1.666s]  1173 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[1.666s]       |     [01;36m[K^~~~~~~~[m[K
+[1.666s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.666s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.666s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.666s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.666s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[1.666s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.666s]       |                  [01;36m[K^~~~[m[K
+[1.667s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.667s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.667s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+[1.667s]  1179 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[1.667s]       |     [01;36m[K^~~~~~~~[m[K
+[1.667s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.667s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.667s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.667s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.667s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[1.667s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.667s]       |                  [01;36m[K^~~~[m[K
+[1.667s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.667s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.668s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[1.668s]  1232 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[1.668s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.668s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.668s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.668s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.668s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[1.668s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.668s]       |                  [01;36m[K^~~~[m[K
+[1.668s] In file included from [01m[K/usr/include/c++/11/random:51[m[K,
+[1.668s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:13[m[K:
+[1.668s] [01m[K/usr/include/c++/11/bits/random.tcc:1899:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)[m[K’
+[1.668s]  1899 |     [01;36m[Koperator[m[K==(const std::normal_distribution<_RealType>& __d1,
+[1.668s]       |     [01;36m[K^~~~~~~~[m[K
+[1.668s] [01m[K/usr/include/c++/11/bits/random.tcc:1899:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.668s] In file included from [01m[K/usr/include/strings.h:23[m[K,
+[1.668s]                  from [01m[K/usr/include/string.h:462[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.668s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.669s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’
+[1.669s]   172 |         if(odom==[01;36m[KNULL[m[K || scan_data==NULL)
+[1.669s]       |                  [01;36m[K^~~~[m[K
+[1.669s] In file included from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[1.669s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.669s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.669s] [01m[K/usr/include/c++/11/system_error:362:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[1.669s]   362 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[1.669s]       |   [01;36m[K^~~~~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:362:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[1.669s]   362 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[1.669s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:368:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[1.669s]   368 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[1.669s]       |   [01;36m[K^~~~~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:368:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[1.669s]   368 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[1.669s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[1.669s]   376 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[1.669s]       |   [01;36m[K^~~~~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[1.669s]   376 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[1.669s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:408:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[1.669s]   408 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[1.669s]       |   [01;36m[K^~~~~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/system_error:408:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[1.669s]   408 | perator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[1.669s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.669s] 
+[1.669s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.669s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.669s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[1.669s]   287 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[1.669s]       |   [01;36m[K^~~~~~~~[m[K
+[1.669s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[1.669s]   287 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[1.669s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[1.669s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.670s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.670s] [01m[K/usr/include/c++/11/variant:1239:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+[1.670s]  1239 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[1.670s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.670s] [01m[K/usr/include/c++/11/variant:1239:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[1.670s]  1239 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[1.670s]       |                             [01;36m[K^~~~~~~~~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:172:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[1.670s]   172 |         if(odom==NULL || [01;31m[Kscan_data[m[K==NULL)
+[1.670s]       |                          [01;31m[K^~~~~~~~~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:178:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   178 |         double x = odom[01;31m[K->[m[Kpose.pose.position.x;
+[1.670s]       |                        [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:179:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   179 |         double y = odom[01;31m[K->[m[Kpose.pose.position.y;
+[1.670s]       |                        [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:180:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   180 |         tf2::Quaternion q(odom[01;31m[K->[m[Kdata.pose.pose.orientation.x,
+[1.670s]       |                               [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:181:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   181 |                         odom[01;31m[K->[m[Kpose.pose.orientation.y,
+[1.670s]       |                             [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:182:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   182 |                         odom[01;31m[K->[m[Kpose.pose.orientation.z,
+[1.670s]       |                             [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:183:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.670s]   183 |                         odom[01;31m[K->[m[Kpose.pose.orientation.w);
+[1.670s]       |                             [01;31m[K^~[m[K
+[1.670s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:198:30:[m[K [01;31m[Kerror: [m[K‘[01m[KINT_MAX[m[K’ was not declared in this scope
+[1.670s]   198 |         double best_score = -[01;31m[KINT_MAX[m[K;
+[1.670s]       |                              [01;31m[K^~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:198:30:[m[K [01;36m[Knote: [m[K‘[01m[KINT_MAX[m[K’ is defined in header ‘[01m[K<climits>[m[K’; did you forget to ‘[01m[K#include <climits>[m[K’?
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:199:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble best_speed[m[K’
+[1.671s]   199 |         double [01;31m[Kbest_speed[m[K = 0.0, best_rotation_speed = 0.0;\
+[1.671s]       |                [01;31m[K^~~~~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:169:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble best_speed[m[K’ previously declared here
+[1.671s]   169 |         double [01;36m[Kbest_speed[m[K = 0.0;
+[1.671s]       |                [01;36m[K^~~~~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:199:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble best_rotation_speed[m[K’
+[1.671s]   199 |         double best_speed = 0.0, [01;31m[Kbest_rotation_speed[m[K = 0.0;\
+[1.671s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:170:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble best_rotation_speed[m[K’ previously declared here
+[1.671s]   170 |         double [01;36m[Kbest_rotation_speed[m[K = 0.0;
+[1.671s]       |                [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:204:92:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_step[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.671s]   204 | on_ranges(speed, rotation_speed, [01;31m[Ktime_step[m[K, odom_data);
+[1.671s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[1.671s]       |                                  [32m[Ktimespec[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:204:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.671s]   204 | peed, rotation_speed, time_step, [01;31m[Kodom_data[m[K);
+[1.671s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[1.671s]       |                                  [32m[Krandom_data[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:210:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[1.671s]   210 |  collision_avoidance(trajectory, [01;31m[Kscan_data[m[K, odom_data, tolerance);
+[1.671s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[1.671s] 
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:189:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_angle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.671s]   189 |         double [01;35m[Kgoal_angle[m[K = atan2(goal_y-y, goal_x-x)-theta;
+[1.671s]       |                [01;35m[K^~~~~~~~~~[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:166:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.671s]   166 | [01;35m[Kst vector<pair<double, double>>& trajectory[m[K, const nav_msgs::msg::Odometry& odom, const sensor_msgs::msg::LaserScan& scan)
+[1.671s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.671s] 
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:166:158:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.671s]   166 | om, [01;35m[Kconst sensor_msgs::msg::LaserScan& scan[m[K)
+[1.671s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.671s] 
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:231:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.671s]   231 |         if(![01;31m[Kodom_data[m[K || !scan_data)
+[1.671s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.671s]       |             [32m[Krandom_data[m[K
+[1.671s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:231:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[1.671s]   231 |         if(!odom_data || ![01;31m[Kscan_data[m[K)
+[1.671s]       |                           [01;31m[K^~~~~~~~~[m[K
+[1.675s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:237:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope
+[1.675s]   237 | st_rotation_speed] = dwa_control([01;31m[Ktrajectory[m[K, current_scan);
+[1.675s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[1.675s] 
+[3.872s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[3.872s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[3.872s] gmake: *** [Makefile:146: all] Error 2
+[3.873s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

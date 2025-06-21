@@ -1,0 +1,639 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (dwa_planner) JobQueued: {'identifier': 'dwa_planner', 'dependencies': OrderedDict()}
+[0.000476] (dwa_planner) JobStarted: {'identifier': 'dwa_planner'}
+[0.007866] (dwa_planner) JobProgress: {'identifier': 'dwa_planner', 'progress': 'cmake'}
+[0.008521] (dwa_planner) JobProgress: {'identifier': 'dwa_planner', 'progress': 'build'}
+[0.008968] (dwa_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'], 'cwd': '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'panav'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/panav/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/panav/ros2_ws/install/turtlebot3_msgs/lib:/home/panav/ros2_ws/install/phone_sensor_bridge/lib:/home/panav/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/panav/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/panav/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/panav/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/panav'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'zorin'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/panav/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'zorin'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/196/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1550'), ('IM_CONFIG_CHECK_ENV', '1'), ('MAKEFLAGS', '-j 4'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4794'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/panav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'panav'), ('JOURNAL_STREAM', '8:20831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-zorin:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'panav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/panav/.local/bin:/opt/ros/humble/bin:/home/panav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/panav/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/panav-zorin:@/tmp/.ICE-unix/1521,unix/panav-zorin:/tmp/.ICE-unix/1521'), ('GTK_EXE_PREFIX', '/snap/code/196/usr'), ('INVOCATION_ID', '86e38903d95444e680793e22edac8040'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/196/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/panav/snap/code/196/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'zorin'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BRS872'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e118c3cf96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/panav/snap/code/196/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/home/panav/ros2_ws/install/examples_rclcpp_wait_set:/home/panav/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/panav/ros2_ws/install/examples_rclcpp_minimal_timer:/home/panav/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclcpp_minimal_service:/home/panav/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/panav/ros2_ws/install/examples_rclcpp_minimal_composition:/home/panav/ros2_ws/install/examples_rclcpp_minimal_client:/home/panav/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/panav/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/panav/ros2_ws/install/examples_rclcpp_cbg_executor:/home/panav/ros2_ws/install/examples_rclcpp_async_client:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/cpp_starter:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'zorin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-zorin:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/home/panav/snap/code/196/.local/share/flatpak/exports/share:/home/panav/snap/code/196/.local/share:/home/panav/snap/code/196:/snap/code/196/usr/share:/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/panav/ros2_ws/build/turtlebot3_teleop:/home/panav/ros2_ws/build/turtlebot3_example:/home/panav/ros2_ws/build/launch_testing_examples:/home/panav/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/build/examples_rclpy_minimal_service:/home/panav/ros2_ws/build/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/build/examples_rclpy_minimal_client:/home/panav/ros2_ws/build/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/build/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/build/examples_rclpy_guard_conditions:/home/panav/ros2_ws/build/examples_rclpy_executors:/home/panav/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/build/python_starter:/home/panav/ros2_ws/install/python_starter/lib/python3.10/site-packages:/home/panav/ros2_ws/install/phone_sensor_bridge/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/panav/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/examples_rclcpp_wait_set:/home/panav/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/panav/ros2_ws/install/examples_rclcpp_minimal_timer:/home/panav/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclcpp_minimal_service:/home/panav/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/panav/ros2_ws/install/examples_rclcpp_minimal_composition:/home/panav/ros2_ws/install/examples_rclcpp_minimal_client:/home/panav/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/panav/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/panav/ros2_ws/install/examples_rclcpp_cbg_executor:/home/panav/ros2_ws/install/examples_rclcpp_async_client:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/cpp_starter:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.046630] (dwa_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dwa_node\x1b[0m\n'}
+[0.059577] (dwa_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o\x1b[0m\n'}
+[0.099912] (-) TimerEvent: {}
+[0.200182] (-) TimerEvent: {}
+[0.300467] (-) TimerEvent: {}
+[0.400741] (-) TimerEvent: {}
+[0.501035] (-) TimerEvent: {}
+[0.601398] (-) TimerEvent: {}
+[0.701659] (-) TimerEvent: {}
+[0.802018] (-) TimerEvent: {}
+[0.902329] (-) TimerEvent: {}
+[1.002693] (-) TimerEvent: {}
+[1.102988] (-) TimerEvent: {}
+[1.203348] (-) TimerEvent: {}
+[1.303744] (-) TimerEvent: {}
+[1.404031] (-) TimerEvent: {}
+[1.464424] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:22:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K[\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.464610] (dwa_planner) StderrLine: {'line': b'   22 | \x1b[01;31m\x1b[K[\x1b[m\x1b[K\n'}
+[1.464678] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.464737] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:23:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.464795] (dwa_planner) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[1.464852] (dwa_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.464908] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:22:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K]\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.464964] (dwa_planner) StderrLine: {'line': b'   22 | [\n'}
+[1.465019] (dwa_planner) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.465074] (dwa_planner) StderrLine: {'line': b'      |  \x1b[32m\x1b[K]\x1b[m\x1b[K\n'}
+[1.465135] (dwa_planner) StderrLine: {'line': b'   23 |     \x1b[32m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[1.465190] (dwa_planner) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[1.468618] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:52:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.468764] (dwa_planner) StderrLine: {'line': b'   52 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::Marker>::SharedPtr path_pub;\n'}
+[1.468830] (dwa_planner) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.468889] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:52:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.468946] (dwa_planner) StderrLine: {'line': b'   52 | r<visualization_msgs::msg::Marker\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr path_pub;\n'}
+[1.469003] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.469059] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.469114] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:52:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kpath_pub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.469170] (dwa_planner) StderrLine: {'line': b'   52 | tion_msgs::msg::Marker>::SharedPtr \x1b[01;31m\x1b[Kpath_pub\x1b[m\x1b[K;\n'}
+[1.469230] (dwa_planner) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.469291] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.504215] (-) TimerEvent: {}
+[1.513441] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:58:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_nmsgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.513646] (dwa_planner) StderrLine: {'line': b'   58 |     \x1b[01;31m\x1b[Ksensor_nmsgs\x1b[m\x1b[K::msg::LaserScan current_scan;\n'}
+[1.513685] (dwa_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.516176] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.516305] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.516351] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.516390] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.516430] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.516468] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.516505] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.516540] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.516588] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.516832] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.517009] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.517192] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.517279] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.517346] (dwa_planner) StderrLine: {'line': b'   71 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.517408] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.517468] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.517529] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.517590] (dwa_planner) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.517664] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517747] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.517812] (dwa_planner) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.517877] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517934] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.518002] (dwa_planner) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.518059] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.518118] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.518177] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.518244] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.518312] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.518370] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.518428] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.518486] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.518544] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.518601] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.518663] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.518720] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.518778] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.518835] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.518894] (dwa_planner) StderrLine: {'line': b'   71 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.518952] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.519011] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.519069] (dwa_planner) StderrLine: {'line': b'   71 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry received: Position (%f, %f), Orientation (%f, %f, %f, %f)",\n'}
+[1.519130] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.519192] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.519256] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLaseScan\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.519322] (dwa_planner) StderrLine: {'line': b'   79 | callback(const sensor_msgs::msg::\x1b[01;31m\x1b[KLaseScan\x1b[m\x1b[K::SharedPtr msg)\n'}
+[1.519382] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.519441] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[KLaserScan\x1b[m\x1b[K\n'}
+[1.519499] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.519563] (dwa_planner) StderrLine: {'line': b'   79 | t sensor_msgs::msg::LaseScan::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.519628] (dwa_planner) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.519692] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.519752] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.519812] (dwa_planner) StderrLine: {'line': b'   79 | t sensor_msgs::msg::LaseScan::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.519874] (dwa_planner) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.519936] (dwa_planner) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.519997] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.520064] (dwa_planner) StderrLine: {'line': b'   79 | t sensor_msgs::msg::LaseScan::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.520124] (dwa_planner) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.520186] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.520256] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.520324] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.520390] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.520455] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.520530] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.520603] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.520667] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.520729] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.520788] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.520850] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.520910] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.520972] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid seek_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.521032] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.521100] (dwa_planner) StderrLine: {'line': b'   91 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.521160] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.521220] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.521402] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.521465] (dwa_planner) StderrLine: {'line': b'   91 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.521524] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.521583] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.521643] (dwa_planner) StderrLine: {'line': b'   91 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.521712] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.521771] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.521830] (dwa_planner) StderrLine: {'line': b'   91 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.521953] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.522011] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.522069] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.522127] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.522183] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.522250] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.522310] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.522367] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.522423] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.522480] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.522539] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.522596] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.522653] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.522709] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.522766] (dwa_planner) StderrLine: {'line': b'   91 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.522823] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.522880] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:91:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.522937] (dwa_planner) StderrLine: {'line': b'   91 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal set to: (%f,%f)", goal_x, goal_y);\n'}
+[1.522998] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.523055] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<double, double> > motion_ranges(double, double, double, const Odometry&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.523115] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:98:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krandom_data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.523175] (dwa_planner) StderrLine: {'line': b'   98 |         double x = \x1b[01;31m\x1b[Kodom_data\x1b[m\x1b[K.pose.pose.position.x;\n'}
+[1.523237] (dwa_planner) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.523300] (dwa_planner) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Krandom_data\x1b[m\x1b[K\n'}
+[1.523357] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.523414] (dwa_planner) StderrLine: {'line': b'  100 |         double theta = tf2\x1b[01;31m\x1b[K.\x1b[m\x1b[KgetYaw(odom_data.pose.pose.orientation);\n'}
+[1.523471] (dwa_planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.525725] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:102:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrajectory_length\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.525798] (dwa_planner) StderrLine: {'line': b'  102 |         for(int i =0;i<\x1b[01;31m\x1b[Ktrajectory_length\x1b[m\x1b[K;i++)\n'}
+[1.525854] (dwa_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.527516] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:104:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.527645] (dwa_planner) StderrLine: {'line': b'  104 |             \x1b[01;31m\x1b[Kyaw\x1b[m\x1b[K+=turn_rate * time_step;\n'}
+[1.527709] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.529885] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:104:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturn_rate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktruncate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.530003] (dwa_planner) StderrLine: {'line': b'  104 |             yaw+=\x1b[01;31m\x1b[Kturn_rate\x1b[m\x1b[K * time_step;\n'}
+[1.530077] (dwa_planner) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.530138] (dwa_planner) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Ktruncate\x1b[m\x1b[K\n'}
+[1.531211] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.531316] (dwa_planner) StderrLine: {'line': b'  100 |         double \x1b[01;35m\x1b[Ktheta\x1b[m\x1b[K = tf2.getYaw(odom_data.pose.pose.orientation);\n'}
+[1.531451] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.531533] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:95:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krotation_speed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.531598] (dwa_planner) StderrLine: {'line': b'   95 | tion_ranges(double speed, \x1b[01;35m\x1b[Kdouble rotation_speed\x1b[m\x1b[K, double time_step, const nav_msgs::msg::Odometry& odom)\n'}
+[1.531664] (dwa_planner) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.531722] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.531777] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:95:135:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kodom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.531836] (dwa_planner) StderrLine: {'line': b'   95 | e_step, \x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry& odom\x1b[m\x1b[K)\n'}
+[1.531891] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.531946] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.532001] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double> path_gen()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.532057] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:116:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.532112] (dwa_planner) StderrLine: {'line': b'  116 |         double time_step = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_parameter("time_step").as_double();\n'}
+[1.532173] (dwa_planner) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.532241] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:118:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<double, double> > motion_ranges(double, double, double, const Odometry&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.532529] (dwa_planner) StderrLine: {'line': b'  118 | uble>> trajectory = \x1b[01;31m\x1b[Kmotion_ranges(speed, rotation_speed)\x1b[m\x1b[K;\n'}
+[1.532594] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.532652] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.532708] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:95:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.532771] (dwa_planner) StderrLine: {'line': b'   95 |    vector <pair<double, double>> \x1b[01;36m\x1b[Kmotion_ranges\x1b[m\x1b[K(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom)\n'}
+[1.532831] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.532886] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.532940] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:116:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktime_step\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.532998] (dwa_planner) StderrLine: {'line': b'  116 |         double \x1b[01;35m\x1b[Ktime_step\x1b[m\x1b[K = this->get_parameter("time_step").as_double();\n'}
+[1.533053] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.533109] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.533166] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.533231] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.533298] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.533357] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.533414] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.533472] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.533531] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.533606] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.533664] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.533721] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.533777] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble collision_avoidance(const std::vector<std::pair<double, double> >&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.533837] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.533895] (dwa_planner) StderrLine: {'line': b'  126 |             RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger() "No Laser scan data available");\n'}
+[1.533953] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.534011] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.534068] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.534126] (dwa_planner) StderrLine: {'line': b'  126 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger() "No Laser scan data available");\n'}
+[1.534183] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.534248] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.534310] (dwa_planner) StderrLine: {'line': b'  126 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger() "No Laser scan data available");\n'}
+[1.534367] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.534425] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.534484] (dwa_planner) StderrLine: {'line': b'  126 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger() "No Laser scan data available");\n'}
+[1.534542] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.534601] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.534665] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.534721] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.534779] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.534835] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.534891] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.534947] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.535003] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.535059] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.535132] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.535192] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.535257] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.535317] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.535374] (dwa_planner) StderrLine: {'line': b'  126 |             RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger() "No Laser scan data available");\n'}
+[1.535430] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.535486] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.535542] (dwa_planner) StderrLine: {'line': b'  126 |   RCLCPP_WARN(this->get_logger() \x1b[01;31m\x1b[K"No Laser scan data available"\x1b[m\x1b[K);\n'}
+[1.535598] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.535654] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.535709] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.535770] (dwa_planner) StderrLine: {'line': b'  126 |             \x1b[01;36m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger() "No Laser scan data available");\n'}
+[1.535826] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.535881] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.535938] (dwa_planner) StderrLine: {'line': b'  126 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger() "No Laser scan data available");\n'}
+[1.535994] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.536050] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:126:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.536217] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:135:147:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.536298] (dwa_planner) StderrLine: {'line': b'  135 | .position.x)+M_PI) / (2*M_PI)) * \x1b[01;31m\x1b[Kscan_data\x1b[m\x1b[K.ranges.size();\n'}
+[1.536358] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.536415] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.538651] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:137:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.538749] (dwa_planner) StderrLine: {'line': b'  137 |             if (distance < \x1b[01;31m\x1b[Kscan_data_\x1b[m\x1b[K->ranges[scan_index] - tolerance) {\n'}
+[1.538813] (dwa_planner) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.540930] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:137:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.541060] (dwa_planner) StderrLine: {'line': b'  137 | f (distance < scan_data_->ranges[\x1b[01;31m\x1b[Kscan_index\x1b[m\x1b[K] - tolerance) {\n'}
+[1.541131] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.541192] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.543554] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:137:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktolerance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.543653] (dwa_planner) StderrLine: {'line': b'  137 | scan_data_->ranges[scan_index] - \x1b[01;31m\x1b[Ktolerance\x1b[m\x1b[K) {\n'}
+[1.543716] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.543774] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.543865] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:138:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KINT_MAX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.543929] (dwa_planner) StderrLine: {'line': b'  138 |                 return -\x1b[01;31m\x1b[KINT_MAX\x1b[m\x1b[K;\n'}
+[1.543989] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.544077] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:18:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KINT_MAX\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<climits>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <climits>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.544142] (dwa_planner) StderrLine: {'line': b'   17 | #include <tf2/LinearMath/Matrix3x3.h>\n'}
+[1.544203] (dwa_planner) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <climits>\x1b[m\x1b[K\n'}
+[1.544309] (dwa_planner) StderrLine: {'line': b'   18 | \n'}
+[1.544395] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:135:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.544465] (dwa_planner) StderrLine: {'line': b'  135 |             int \x1b[01;35m\x1b[Kindex\x1b[m\x1b[K = static_cast<int>((atan2(y - current_odom.pose.pose.position.y, x - current_odom.pose.pose.position.x)+M_PI) / (2*M_PI)) * scan_data.ranges.size();\n'}
+[1.544526] (dwa_planner) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.544583] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.544640] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.544700] (dwa_planner) StderrLine: {'line': b'  143 |         \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K 0.0;\n'}
+[1.544756] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.544812] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:144:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.544869] (dwa_planner) StderrLine: {'line': b'  144 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.544924] (dwa_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.544980] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double> dwa_control(const std::vector<std::pair<double, double> >&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.545040] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:147:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KINT_MAX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.545098] (dwa_planner) StderrLine: {'line': b'  147 |         double best_score = \x1b[01;31m\x1b[KINT_MAX\x1b[m\x1b[K;\n'}
+[1.545154] (dwa_planner) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.545210] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:147:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KINT_MAX\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<climits>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <climits>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.546576] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:151:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krandom_data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.546642] (dwa_planner) StderrLine: {'line': b'  151 |         if(\x1b[01;31m\x1b[Kodom_data\x1b[m\x1b[K==NULL || scan_data==NULL)\n'}
+[1.546698] (dwa_planner) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.546753] (dwa_planner) StderrLine: {'line': b'      |            \x1b[32m\x1b[Krandom_data\x1b[m\x1b[K\n'}
+[1.548758] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:151:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.548886] (dwa_planner) StderrLine: {'line': b'  151 |         if(odom_data==NULL || \x1b[01;31m\x1b[Kscan_data\x1b[m\x1b[K==NULL)\n'}
+[1.548951] (dwa_planner) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.549015] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.549127] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.549186] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.549251] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.549312] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.549369] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.549426] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.549483] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.549539] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.549596] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.549652] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.549709] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.549767] (dwa_planner) StderrLine: {'line': b'  153 |             RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.549825] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.549881] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.549938] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.549994] (dwa_planner) StderrLine: {'line': b'  153 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.550051] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.550106] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.550163] (dwa_planner) StderrLine: {'line': b'  153 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.550219] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.550287] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.550347] (dwa_planner) StderrLine: {'line': b'  153 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.550403] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.550459] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.550518] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.550577] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.550634] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.550689] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.550745] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.550801] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.550857] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.550912] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.550968] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.551023] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.551079] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.551134] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.551191] (dwa_planner) StderrLine: {'line': b'  153 |             RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.551254] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.551312] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:153:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.551369] (dwa_planner) StderrLine: {'line': b'  153 |             RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Odometry or Laser scan data not available");\n'}
+[1.551425] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.552294] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:157:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krandom_data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.552360] (dwa_planner) StderrLine: {'line': b'  157 |         double x = \x1b[01;31m\x1b[Kodom_data\x1b[m\x1b[K->pose.pose.position.x;\n'}
+[1.552416] (dwa_planner) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.552473] (dwa_planner) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Krandom_data\x1b[m\x1b[K\n'}
+[1.552560] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:159:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetYaw\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.552618] (dwa_planner) StderrLine: {'line': b'  159 |         double theta = tf2::\x1b[01;31m\x1b[KgetYaw\x1b[m\x1b[K(odom_data->pose.pose.orientation);\n'}
+[1.552674] (dwa_planner) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.555097] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:163:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_tolerance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.555294] (dwa_planner) StderrLine: {'line': b'  163 |         if(goal_distance < \x1b[01;31m\x1b[Kgoal_tolerance\x1b[m\x1b[K)\n'}
+[1.555488] (dwa_planner) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.555562] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.555597] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.555627] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.555655] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.555682] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.555710] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.555737] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.555764] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.555790] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.555817] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.555918] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.555949] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.555980] (dwa_planner) StderrLine: {'line': b'  165 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal converged");\n'}
+[1.556006] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.556030] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.556055] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.556078] (dwa_planner) StderrLine: {'line': b'  165 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal converged");\n'}
+[1.556103] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556128] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.556152] (dwa_planner) StderrLine: {'line': b'  165 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal converged");\n'}
+[1.556176] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556201] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.556230] (dwa_planner) StderrLine: {'line': b'  165 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal converged");\n'}
+[1.556263] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556287] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.556311] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.556335] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.556358] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.556382] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.556406] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.556429] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.556452] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.556474] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.556497] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.556520] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.556543] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.556566] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.556592] (dwa_planner) StderrLine: {'line': b'  165 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal converged");\n'}
+[1.556618] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.556642] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.556667] (dwa_planner) StderrLine: {'line': b'  165 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal converged");\n'}
+[1.556692] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.556717] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:170:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kdouble best_score\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.556745] (dwa_planner) StderrLine: {'line': b'  170 |         double \x1b[01;31m\x1b[Kbest_score\x1b[m\x1b[K = -INT_MAX;\n'}
+[1.556768] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556791] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:147:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble best_score\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.556816] (dwa_planner) StderrLine: {'line': b'  147 |         double \x1b[01;36m\x1b[Kbest_score\x1b[m\x1b[K = INT_MAX;\n'}
+[1.556840] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556863] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:171:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kdouble best_speed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.556886] (dwa_planner) StderrLine: {'line': b'  171 |         double \x1b[01;31m\x1b[Kbest_speed\x1b[m\x1b[K = 0.0, best_rotation_speed = 0.0;\\\n'}
+[1.556910] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556934] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:148:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble best_speed\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.556958] (dwa_planner) StderrLine: {'line': b'  148 |         double \x1b[01;36m\x1b[Kbest_speed\x1b[m\x1b[K = 0.0;\n'}
+[1.556981] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.557005] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:171:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kdouble best_rotation_speed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.557029] (dwa_planner) StderrLine: {'line': b'  171 |         double best_speed = 0.0, \x1b[01;31m\x1b[Kbest_rotation_speed\x1b[m\x1b[K = 0.0;\\\n'}
+[1.557052] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.557076] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:149:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble best_rotation_speed\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.557099] (dwa_planner) StderrLine: {'line': b'  149 |         double \x1b[01;36m\x1b[Kbest_rotation_speed\x1b[m\x1b[K = 0.0;\n'}
+[1.557124] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.558862] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:182:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.558980] (dwa_planner) StderrLine: {'line': b'  182 |  collision_avoidance(trajectory, \x1b[01;31m\x1b[Kscan_data\x1b[m\x1b[K);\n'}
+[1.559046] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.559104] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.560501] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:183:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturn\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.560621] (dwa_planner) StderrLine: {'line': b'  183 |       double smoothness_factor = \x1b[01;31m\x1b[Kturn\x1b[m\x1b[K*rotation_speed * 0.5;\n'}
+[1.560699] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.560766] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.562975] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:186:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktotal_score\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.563095] (dwa_planner) StderrLine: {'line': b'  186 |             if(\x1b[01;31m\x1b[Ktotal_score\x1b[m\x1b[K > best_score)\n'}
+[1.563189] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.563373] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:161:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kgoal_angle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.563440] (dwa_planner) StderrLine: {'line': b'  161 |         double \x1b[01;35m\x1b[Kgoal_angle\x1b[m\x1b[K = atan2(goal_y-y, goal_x-x)-theta;\n'}
+[1.563551] (dwa_planner) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.563609] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:145:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktrajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.563670] (dwa_planner) StderrLine: {'line': b'  145 | \x1b[01;35m\x1b[Kst vector<pair<double, double>>& trajectory\x1b[m\x1b[K, const sensor_msgs::msg::LaserScan& scan)\n'}
+[1.563727] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.563784] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.563840] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:145:121:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.563899] (dwa_planner) StderrLine: {'line': b'  145 | ry, \x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan& scan\x1b[m\x1b[K)\n'}
+[1.563956] (dwa_planner) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.564013] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.564068] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.564123] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.564179] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.564237] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.564298] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.564354] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.564415] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.564472] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.564528] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.564584] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.564639] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.564694] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.564756] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.564819] (dwa_planner) StderrLine: {'line': b'  200 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal already converged");\n'}
+[1.564875] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.564930] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.564986] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.565042] (dwa_planner) StderrLine: {'line': b'  200 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal already converged");\n'}
+[1.565097] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.565152] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.565208] (dwa_planner) StderrLine: {'line': b'  200 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal already converged");\n'}
+[1.565438] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.565482] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.565511] (dwa_planner) StderrLine: {'line': b'  200 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Goal already converged");\n'}
+[1.565538] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.565564] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.565588] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.565613] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.565638] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.565662] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.565687] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.565710] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.565734] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.565758] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.565781] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.565805] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.565840] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.565864] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.565890] (dwa_planner) StderrLine: {'line': b'  200 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal already converged");\n'}
+[1.565914] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.565938] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:200:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.565962] (dwa_planner) StderrLine: {'line': b'  200 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Goal already converged");\n'}
+[1.565986] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.566062] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:203:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krandom_data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.566094] (dwa_planner) StderrLine: {'line': b'  203 |         if(!\x1b[01;31m\x1b[Kodom_data\x1b[m\x1b[K || !scan_data)\n'}
+[1.566120] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.566144] (dwa_planner) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krandom_data\x1b[m\x1b[K\n'}
+[1.568340] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:203:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.568419] (dwa_planner) StderrLine: {'line': b'  203 |         if(!odom_data || !\x1b[01;31m\x1b[Kscan_data\x1b[m\x1b[K)\n'}
+[1.568451] (dwa_planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.568481] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.568589] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.568693] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.568761] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.568836] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.568895] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.568959] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.569016] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.569075] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.569142] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.569214] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.569295] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.569361] (dwa_planner) StderrLine: {'line': b'  205 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.569443] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.569546] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.569602] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.569634] (dwa_planner) StderrLine: {'line': b'  205 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.569661] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.569687] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.569713] (dwa_planner) StderrLine: {'line': b'  205 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.569738] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.569764] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.569789] (dwa_planner) StderrLine: {'line': b'  205 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.569813] (dwa_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.569836] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.569860] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.569883] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.569906] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.569929] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.569953] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.569977] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.569999] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.570029] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.570052] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.570076] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.570099] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.570121] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.570145] (dwa_planner) StderrLine: {'line': b'  205 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.570169] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.570193] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.570216] (dwa_planner) StderrLine: {'line': b'  205 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Waiting for odometry or laser scan data");\n'}
+[1.570253] (dwa_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.571227] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:209:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrajectory\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.571303] (dwa_planner) StderrLine: {'line': b'  209 | st_rotation_speed] = dwa_control(\x1b[01;31m\x1b[Ktrajectory\x1b[m\x1b[K, current_scan);\n'}
+[1.571340] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.571367] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.573976] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:209:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_scan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent_odom\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.574054] (dwa_planner) StderrLine: {'line': b'  209 | speed] = dwa_control(trajectory, \x1b[01;31m\x1b[Kcurrent_scan\x1b[m\x1b[K);\n'}
+[1.574086] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.574113] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Kcurrent_odom\x1b[m\x1b[K\n'}
+[1.574137] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:215:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.574163] (dwa_planner) StderrLine: {'line': b'  215 |         \x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::Marker path_marker;\n'}
+[1.574187] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.576562] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:216:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_marker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.576661] (dwa_planner) StderrLine: {'line': b'  216 |         \x1b[01;31m\x1b[Kpath_marker\x1b[m\x1b[K.header.frame_id = "map";\n'}
+[1.576695] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.576722] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:217:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.576756] (dwa_planner) StderrLine: {'line': b'  217 |       path_marker.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[1.576781] (dwa_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.576806] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.576831] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:220:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.576856] (dwa_planner) StderrLine: {'line': b'  220 |         path_marker.type = \x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::Marker::LINE_STRIP;\n'}
+[1.576882] (dwa_planner) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.576907] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:221:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.576933] (dwa_planner) StderrLine: {'line': b'  221 |         path_marker.action = \x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::Marker::ADD;\n'}
+[1.576958] (dwa_planner) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.579062] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:237:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.579139] (dwa_planner) StderrLine: {'line': b'  237 |         \x1b[01;31m\x1b[Kpath_pub\x1b[m\x1b[K->publish(path_marker);\n'}
+[1.579170] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.581132] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:238:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvel_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.581208] (dwa_planner) StderrLine: {'line': b'  238 |         \x1b[01;31m\x1b[Kvel_pub\x1b[m\x1b[K->publish(cmd_vel);\n'}
+[1.581249] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.581278] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.581306] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.581333] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.581360] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.581385] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.581412] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.581438] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.581464] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.581491] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.581517] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.581582] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.581607] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.581632] (dwa_planner) StderrLine: {'line': b'  239 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.581655] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.581678] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.581704] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.581728] (dwa_planner) StderrLine: {'line': b'  239 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.581751] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.581774] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.581797] (dwa_planner) StderrLine: {'line': b'  239 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.581819] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.581842] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.581865] (dwa_planner) StderrLine: {'line': b'  239 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.581887] (dwa_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.581910] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.581933] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.581956] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.581979] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.582002] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.582024] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.582046] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.582069] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.582092] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.582115] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.582139] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.582162] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.582186] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.582209] (dwa_planner) StderrLine: {'line': b'  239 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.582240] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.582265] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:239:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.582289] (dwa_planner) StderrLine: {'line': b'  239 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);\n'}
+[1.582312] (dwa_planner) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.582336] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.582360] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:241:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.582385] (dwa_planner) StderrLine: {'line': b'  241 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.582411] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.583800] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.583893] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:245:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<DWA_node>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.583927] (dwa_planner) StderrLine: {'line': b'  245 |     \x1b[01;31m\x1b[Krclcpp::spin(std::make_shared<DWA_node>())\x1b[m\x1b[K;\n'}
+[1.583954] (dwa_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.583979] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.584005] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.584032] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.584058] (dwa_planner) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[1.584089] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.584114] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KDWA_node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.584146] (dwa_planner) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[1.584172] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.584196] (dwa_planner) StderrLine: {'line': b'\n'}
+[1.584220] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.584252] (dwa_planner) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[1.584276] (dwa_planner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.584300] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KDWA_node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.584326] (dwa_planner) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[1.584349] (dwa_planner) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.604375] (-) TimerEvent: {}
+[1.704706] (-) TimerEvent: {}
+[1.788101] (dwa_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:60\x1b[m\x1b[K,\n'}
+[1.788238] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.788275] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.788308] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.788339] (dwa_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.788366] (dwa_planner) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<DWA_node>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.788394] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<DWA_node, std::allocator<DWA_node>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788429] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<DWA_node, std::allocator<DWA_node>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788456] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = DWA_node; _Alloc = std::allocator<DWA_node>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788485] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DWA_node>; _Args = {}; _Tp = DWA_node; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788513] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DWA_node>; _Args = {}; _Tp = DWA_node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788537] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = DWA_node; _Alloc = std::allocator<DWA_node>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788562] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = DWA_node; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788588] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:245:44:\x1b[m\x1b[K   required from here\n'}
+[1.788614] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KDWA_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788639] (dwa_planner) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[1.788664] (dwa_planner) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.788691] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KDWA_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804828] (-) TimerEvent: {}
+[1.863198] (dwa_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1\n'}
+[1.863440] (dwa_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2\n'}
+[1.863477] (dwa_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.865242] (dwa_planner) CommandEnded: {'returncode': 2}
+[1.870300] (dwa_planner) JobEnded: {'identifier': 'dwa_planner', 'rc': 2}
+[1.880784] (-) EventReactorShutdown: {}

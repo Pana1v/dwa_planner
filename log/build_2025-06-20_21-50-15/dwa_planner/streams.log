@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.660s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.660s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.660s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.660s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:41:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[Kr[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.660s]    97 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, (current_scan.ranges.size()));
+[1.660s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.660s] 
+[1.660s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.660s]    97 | ogger(), "Laser scan received: % [01;36m[Kr[m[Kanges", (current_scan.ranges.size()));
+[1.660s]       |                                  [01;36m[K^[m[K
+[1.660s] 
+[1.660s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.661s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.661s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.661s]    97 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, (current_scan.ranges.size()));
+[1.661s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.661s] 
+[1.673s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’:
+[1.673s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:175:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope
+[1.673s]   175 |         if([01;31m[Kodom[m[K.header.stamp.sec==0 || scan_data.ranges.empty())
+[1.673s]       |            [01;31m[K^~~~[m[K
+[1.677s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:181:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope
+[1.677s]   181 |         double x = [01;31m[Kodom[m[K.pose.pose.position.x;
+[1.677s]       |                    [01;31m[K^~~~[m[K
+[3.871s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[3.871s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[3.871s] gmake: *** [Makefile:146: all] Error 2
+[3.873s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

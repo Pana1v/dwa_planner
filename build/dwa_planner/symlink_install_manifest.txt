@@ -1,0 +1,16 @@
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/lib/dwa_planner/dwa_node
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/package_run_dependencies/dwa_planner
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/parent_prefix_path/dwa_planner
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.sh
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.dsv
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.sh
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.dsv
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.bash
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.sh
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.zsh
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.dsv
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.dsv
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/packages/dwa_planner
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig.cmake
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig-version.cmake
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.xml

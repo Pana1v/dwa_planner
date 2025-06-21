@@ -1,0 +1,6 @@
+Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/panav/ros2_ws/src/dwa_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner
+Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/panav/ros2_ws/src/dwa_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner
+Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

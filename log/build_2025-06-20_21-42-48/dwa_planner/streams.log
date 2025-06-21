@@ -1,0 +1,100 @@
+[0.010s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.599s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.599s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.600s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.600s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.600s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:41:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[Kr[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.600s]    97 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, static_cast<int>(current_scan.ranges.size()));
+[1.600s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.600s] 
+[1.600s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.601s]    97 | ogger(), "Laser scan received: % [01;36m[Kr[m[Kanges", static_cast<int>(current_scan.ranges.size()));
+[1.601s]       |                                  [01;36m[K^[m[K
+[1.601s] 
+[1.601s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.601s]                  from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.601s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.601s]    97 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Laser scan received: % ranges"[m[K, static_cast<int>(current_scan.ranges.size()));
+[1.601s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.602s] 
+[1.603s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[1.603s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:142:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDWA_node::motion_ranges(double&, double&)[m[K’
+[1.603s]   142 | uble>> trajectory = [01;31m[Kmotion_ranges(speed, rotation_speed)[m[K;
+[1.603s]       |                     [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.603s] 
+[1.603s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:110:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<double, double> > DWA_node::motion_ranges(double, double, double, const Odometry&)[m[K’
+[1.604s]   110 |    vector <pair<double, double>> [01;36m[Kmotion_ranges[m[K(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+[1.604s]       |                                  [01;36m[K^~~~~~~~~~~~~[m[K
+[1.604s] 
+[1.604s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:110:35:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[1.604s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:140:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.604s]   140 |         double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[1.604s]       |                [01;35m[K^~~~~~~~~[m[K
+[1.609s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kdouble DWA_node::collision_avoidance(const std::vector<std::pair<double, double> >&, const LaserScan&, const Odometry&, double)[m[K’:
+[1.609s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:161:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[1.609s]   161 |          if (distance < scan_data[01;31m[K->[m[Kranges[scan_index] - tolerance) {
+[1.609s]       |                                  [01;31m[K^~[m[K
+[1.609s] 
+[1.613s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:161:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_index[m[K’ was not declared in this scope
+[1.613s]   161 | if (distance < scan_data->ranges[[01;31m[Kscan_index[m[K] - tolerance) {
+[1.613s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[1.613s] 
+[1.613s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:159:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.613s]   159 |             int [01;35m[Kindex[m[K = static_cast<int>((atan2(y - current_odom.pose.pose.position.y, x - current_odom.pose.pose.position.x)+M_PI) / (2*M_PI)) * scan_data.ranges.size();
+[1.613s]       |                 [01;35m[K^~~~~[m[K
+[1.614s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’:
+[1.614s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:179:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.614s]   179 |         double x = odom[01;31m[K->[m[Kpose.pose.position.x;
+[1.614s]       |                        [01;31m[K^~[m[K
+[1.614s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:180:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.615s]   180 |         double y = odom[01;31m[K->[m[Kpose.pose.position.y;
+[1.615s]       |                        [01;31m[K^~[m[K
+[1.615s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:181:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.615s]   181 |         tf2::Quaternion q(odom[01;31m[K->[m[Kdata.pose.pose.orientation.x,
+[1.615s]       |                               [01;31m[K^~[m[K
+[1.615s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:182:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.615s]   182 |                         odom[01;31m[K->[m[Kpose.pose.orientation.y,
+[1.615s]       |                             [01;31m[K^~[m[K
+[1.615s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:183:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.615s]   183 |                         odom[01;31m[K->[m[Kpose.pose.orientation.z,
+[1.615s]       |                             [01;31m[K^~[m[K
+[1.615s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:184:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[1.615s]   184 |                         odom[01;31m[K->[m[Kpose.pose.orientation.w);
+[1.615s]       |                             [01;31m[K^~[m[K
+[1.620s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:205:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.620s]   205 | peed, rotation_speed, time_step, [01;31m[Kodom_data[m[K);
+[1.621s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[1.621s]       |                                  [32m[Krandom_data[m[K
+[1.621s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:207:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta_temp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.621s]   207 |             double [01;35m[Ktheta_temp[m[K = atan2(y,x);
+[1.621s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[1.626s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[1.626s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:238:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope
+[1.626s]   238 | st_rotation_speed] = dwa_control([01;31m[Ktrajectory[m[K, current_scan);
+[1.626s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[1.626s] 
+[3.794s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[3.794s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[3.794s] gmake: *** [Makefile:146: all] Error 2
+[3.796s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/python_starter:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/launch_testing_examples:/home/panav/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/panav/ros2_ws/install/examples_rclpy_minimal_service:/home/panav/ros2_ws/install/examples_rclpy_minimal_publisher:/home/panav/ros2_ws/install/examples_rclpy_minimal_client:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_server:/home/panav/ros2_ws/install/examples_rclpy_minimal_action_client:/home/panav/ros2_ws/install/examples_rclpy_guard_conditions:/home/panav/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

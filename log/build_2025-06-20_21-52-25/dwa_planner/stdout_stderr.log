@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dwa_node[0m
+[100%] Built target dwa_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/lib/dwa_planner/dwa_node
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/package_run_dependencies/dwa_planner
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/parent_prefix_path/dwa_planner
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.sh
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.dsv
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.bash
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.sh
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.zsh
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.dsv
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.dsv
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/packages/dwa_planner
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig.cmake
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig-version.cmake
+-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.xml

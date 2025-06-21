@@ -1,0 +1,191 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:236:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  236 |         [01;31m[Kreturn[m[K {best_speed, best_rotation_speed};
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:237:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  237 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In constructor ‘[01m[KDWA_node::DWA_node()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:58:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KDWA_node[m[K’
+   58 |         std::bind(&DWA_node::[01;31m[Ktimer_callback[m[K, this)
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:192:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_angle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  192 |         double [01;35m[Kgoal_angle[m[K = atan2(goal_y-y, goal_x-x)-theta;
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In function ‘[01m[Kvoid timer_callback()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:240:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_converged[m[K’ was not declared in this scope
+  240 |         if([01;31m[Kgoal_converged[m[K)
+      |            [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal already converged");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal already converged");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal already converged");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal already converged");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal already converged");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:242:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal already converged");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:245:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_odom[m[K’ was not declared in this scope
+  245 |         if([01;31m[Kcurrent_odom[m[K.header.stamp.sec==0 || current_scan.ranges.empty())
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:245:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_scan[m[K’ was not declared in this scope
+  245 | rent_odom.header.stamp.sec==0 || [01;31m[Kcurrent_scan[m[K.ranges.empty())
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for odometry or laser scan data");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for odometry or laser scan data");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for odometry or laser scan data");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for odometry or laser scan data");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for odometry or laser scan data");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for odometry or laser scan data");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:251:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_odom[m[K’ was not declared in this scope
+  251 | st_rotation_speed] = dwa_control([01;31m[Kcurrent_odom[m[K , current_scan);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:251:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_scan[m[K’ was not declared in this scope
+  251 | ed] = dwa_control(current_odom , [01;31m[Kcurrent_scan[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:251:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_control[m[K’ was not declared in this scope
+  251 | st_speed, best_rotation_speed] = [01;31m[Kdwa_control[m[K(current_odom , current_scan);
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:253:98:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_step[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+  253 | best_speed, best_rotation_speed, [01;31m[Ktime_step[m[K, current_odom);
+      |                                  [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[Ktimespec[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:253:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_ranges[m[K’ was not declared in this scope
+  253 | ir<double, double>> trajectory = [01;31m[Kmotion_ranges[m[K(best_speed, best_rotation_speed, time_step, current_odom);
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:261:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  261 |       path_marker.header.stamp = [01;31m[Kthis[m[K->now();
+      |                                  [01;31m[K^~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:281:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub[m[K’ was not declared in this scope
+  281 |         [01;31m[Kpath_pub[m[K->publish(path_marker);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:282:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_pub[m[K’ was not declared in this scope
+  282 |         [01;31m[Kvel_pub[m[K->publish(cmd_vel);
+      |         [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  283 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  283 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  283 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  283 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  283 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:283:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  283 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published velocity: linear.x=%f, angular.z=%f", cmd_vel.linear.x, cmd_vel.angular.z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:285:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  285 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

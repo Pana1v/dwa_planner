@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000823] (dwa_planner) JobQueued: {'identifier': 'dwa_planner', 'dependencies': OrderedDict()}
+[0.000991] (dwa_planner) JobStarted: {'identifier': 'dwa_planner'}
+[0.008261] (dwa_planner) JobProgress: {'identifier': 'dwa_planner', 'progress': 'cmake'}
+[0.009043] (dwa_planner) JobProgress: {'identifier': 'dwa_planner', 'progress': 'build'}
+[0.009639] (dwa_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'], 'cwd': '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'panav'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/panav/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/panav/ros2_ws/install/turtlebot3_msgs/lib:/home/panav/ros2_ws/install/phone_sensor_bridge/lib:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/panav/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/panav'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'zorin'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/panav/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'zorin'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/196/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '87434'), ('IM_CONFIG_CHECK_ENV', '1'), ('MAKEFLAGS', '-j 4'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '270955'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/panav/ros2_ws/src/dwa_planner/install:/home/panav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'panav'), ('JOURNAL_STREAM', '8:432411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-zorin:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'panav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/panav/.local/bin:/opt/ros/humble/bin:/home/panav/.local/bin:/home/panav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/panav/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/panav-zorin:@/tmp/.ICE-unix/87404,unix/panav-zorin:/tmp/.ICE-unix/87404'), ('GTK_EXE_PREFIX', '/snap/code/196/usr'), ('INVOCATION_ID', '10e483ed4d934c07b73464535e1a35f4'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('ZEITGEIST_DATA_PATH', '/home/panav/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/196/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/panav/snap/code/196/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'zorin'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6VO82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e118c3cf96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/panav/snap/code/196/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/panav/ros2_ws/install/turtlebot3:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/dynamixel_sdk_examples:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'zorin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-zorin:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/home/panav/snap/code/196/.local/share/flatpak/exports/share:/home/panav/snap/code/196/.local/share:/home/panav/snap/code/196:/snap/code/196/usr/share:/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/panav/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/phone_sensor_bridge/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/panav/ros2_ws/install/turtlebot3:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/dynamixel_sdk_examples:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.073064] (dwa_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o\x1b[0m\n'}
+[0.099779] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.300428] (-) TimerEvent: {}
+[0.400835] (-) TimerEvent: {}
+[0.501168] (-) TimerEvent: {}
+[0.601534] (-) TimerEvent: {}
+[0.701868] (-) TimerEvent: {}
+[0.802185] (-) TimerEvent: {}
+[0.902500] (-) TimerEvent: {}
+[1.002845] (-) TimerEvent: {}
+[1.103209] (-) TimerEvent: {}
+[1.203520] (-) TimerEvent: {}
+[1.303855] (-) TimerEvent: {}
+[1.404662] (-) TimerEvent: {}
+[1.504960] (-) TimerEvent: {}
+[1.605418] (-) TimerEvent: {}
+[1.705758] (-) TimerEvent: {}
+[1.806236] (-) TimerEvent: {}
+[1.906536] (-) TimerEvent: {}
+[2.006947] (-) TimerEvent: {}
+[2.107457] (-) TimerEvent: {}
+[2.207872] (-) TimerEvent: {}
+[2.305275] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.305709] (dwa_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:165:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<std::pair<double, double> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.305792] (dwa_planner) StderrLine: {'line': b'  165 |    for(int i = 0; \x1b[01;35m\x1b[Ki < all_trajectories.size()\x1b[m\x1b[K; i++)\n'}
+[2.305844] (dwa_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.305891] (dwa_planner) StderrLine: {'line': b'\n'}
+[2.308114] (-) TimerEvent: {}
+[2.408462] (-) TimerEvent: {}
+[2.508842] (-) TimerEvent: {}
+[2.609144] (-) TimerEvent: {}
+[2.709407] (-) TimerEvent: {}
+[2.809716] (-) TimerEvent: {}
+[2.910037] (-) TimerEvent: {}
+[3.010604] (-) TimerEvent: {}
+[3.111086] (-) TimerEvent: {}
+[3.211401] (-) TimerEvent: {}
+[3.312466] (-) TimerEvent: {}
+[3.412781] (-) TimerEvent: {}
+[3.513106] (-) TimerEvent: {}
+[3.613667] (-) TimerEvent: {}
+[3.714266] (-) TimerEvent: {}
+[3.814618] (-) TimerEvent: {}
+[3.914977] (-) TimerEvent: {}
+[4.015380] (-) TimerEvent: {}
+[4.115686] (-) TimerEvent: {}
+[4.215987] (-) TimerEvent: {}
+[4.316317] (-) TimerEvent: {}
+[4.416637] (-) TimerEvent: {}
+[4.516940] (-) TimerEvent: {}
+[4.617222] (-) TimerEvent: {}
+[4.717601] (-) TimerEvent: {}
+[4.818923] (-) TimerEvent: {}
+[4.919381] (-) TimerEvent: {}
+[5.019708] (-) TimerEvent: {}
+[5.119959] (-) TimerEvent: {}
+[5.220239] (-) TimerEvent: {}
+[5.320520] (-) TimerEvent: {}
+[5.420866] (-) TimerEvent: {}
+[5.521177] (-) TimerEvent: {}
+[5.621446] (-) TimerEvent: {}
+[5.721804] (-) TimerEvent: {}
+[5.822126] (-) TimerEvent: {}
+[5.922452] (-) TimerEvent: {}
+[6.023222] (-) TimerEvent: {}
+[6.123490] (-) TimerEvent: {}
+[6.223756] (-) TimerEvent: {}
+[6.323978] (-) TimerEvent: {}
+[6.424222] (-) TimerEvent: {}
+[6.524527] (-) TimerEvent: {}
+[6.624763] (-) TimerEvent: {}
+[6.724987] (-) TimerEvent: {}
+[6.825309] (-) TimerEvent: {}
+[6.925551] (-) TimerEvent: {}
+[7.025951] (-) TimerEvent: {}
+[7.126259] (-) TimerEvent: {}
+[7.226488] (-) TimerEvent: {}
+[7.326752] (-) TimerEvent: {}
+[7.427000] (-) TimerEvent: {}
+[7.527326] (-) TimerEvent: {}
+[7.627834] (-) TimerEvent: {}
+[7.728158] (-) TimerEvent: {}
+[7.828421] (-) TimerEvent: {}
+[7.928776] (-) TimerEvent: {}
+[8.029176] (-) TimerEvent: {}
+[8.129506] (-) TimerEvent: {}
+[8.229743] (-) TimerEvent: {}
+[8.330014] (-) TimerEvent: {}
+[8.430360] (-) TimerEvent: {}
+[8.530610] (-) TimerEvent: {}
+[8.630900] (-) TimerEvent: {}
+[8.731171] (-) TimerEvent: {}
+[8.831418] (-) TimerEvent: {}
+[8.931803] (-) TimerEvent: {}
+[9.032118] (-) TimerEvent: {}
+[9.132569] (-) TimerEvent: {}
+[9.232822] (-) TimerEvent: {}
+[9.333086] (-) TimerEvent: {}
+[9.433319] (-) TimerEvent: {}
+[9.533613] (-) TimerEvent: {}
+[9.633862] (-) TimerEvent: {}
+[9.734098] (-) TimerEvent: {}
+[9.834358] (-) TimerEvent: {}
+[9.935477] (-) TimerEvent: {}
+[10.035791] (-) TimerEvent: {}
+[10.136056] (-) TimerEvent: {}
+[10.214207] (dwa_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dwa_node\x1b[0m\n'}
+[10.236152] (-) TimerEvent: {}
+[10.336402] (-) TimerEvent: {}
+[10.436662] (-) TimerEvent: {}
+[10.536988] (-) TimerEvent: {}
+[10.637424] (-) TimerEvent: {}
+[10.737754] (-) TimerEvent: {}
+[10.838151] (-) TimerEvent: {}
+[10.883387] (dwa_planner) StdoutLine: {'line': b'[100%] Built target dwa_node\n'}
+[10.895057] (dwa_planner) CommandEnded: {'returncode': 0}
+[10.895593] (dwa_planner) JobProgress: {'identifier': 'dwa_planner', 'progress': 'install'}
+[10.903605] (dwa_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'], 'cwd': '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'panav'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/panav/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/panav/ros2_ws/install/turtlebot3_msgs/lib:/home/panav/ros2_ws/install/phone_sensor_bridge/lib:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/panav/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/panav'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'zorin'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/panav/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'zorin'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/196/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/196/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '87434'), ('IM_CONFIG_CHECK_ENV', '1'), ('MAKEFLAGS', '-j 4'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '270955'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/panav/ros2_ws/src/dwa_planner/install:/home/panav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'panav'), ('JOURNAL_STREAM', '8:432411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-zorin:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'panav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/panav/.local/bin:/opt/ros/humble/bin:/home/panav/.local/bin:/home/panav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/panav/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/panav-zorin:@/tmp/.ICE-unix/87404,unix/panav-zorin:/tmp/.ICE-unix/87404'), ('GTK_EXE_PREFIX', '/snap/code/196/usr'), ('INVOCATION_ID', '10e483ed4d934c07b73464535e1a35f4'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('ZEITGEIST_DATA_PATH', '/home/panav/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/196/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/panav/snap/code/196/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'zorin'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6VO82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e118c3cf96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/panav/snap/code/196/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/panav/ros2_ws/install/turtlebot3:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_example:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/dynamixel_sdk_examples:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'zorin:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'zorin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-zorin:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/home/panav/snap/code/196/.local/share/flatpak/exports/share:/home/panav/snap/code/196/.local/share:/home/panav/snap/code/196:/snap/code/196/usr/share:/usr/share/zorin:/home/panav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/panav/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/panav/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/phone_sensor_bridge/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/panav/ros2_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/panav/ros2_ws/install/turtlebot3:/home/panav/ros2_ws/install/turtlebot3_simulations:/home/panav/ros2_ws/install/turtlebot3_bringup:/home/panav/ros2_ws/install/turtlebot3_node:/home/panav/ros2_ws/install/turtlebot3_navigation2:/home/panav/ros2_ws/install/turtlebot3_fake_node:/home/panav/ros2_ws/install/turtlebot3_msgs:/home/panav/ros2_ws/install/turtlebot3_gazebo:/home/panav/ros2_ws/install/turtlebot3_description:/home/panav/ros2_ws/install/turtlebot3_cartographer:/home/panav/ros2_ws/install/phone_sensor_bridge:/home/panav/ros2_ws/install/lidar_proximity_filter:/home/panav/ros2_ws/install/dynamixel_sdk_examples:/home/panav/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/panav/ros2_ws/install/dynamixel_sdk:/home/panav/ros2_ws/install/dwa_planner:/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[10.910393] (dwa_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.910700] (dwa_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.910922] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/lib/dwa_planner/dwa_node\n'}
+[10.911058] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/package_run_dependencies/dwa_planner\n'}
+[10.911154] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/parent_prefix_path/dwa_planner\n'}
+[10.911244] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.sh\n'}
+[10.911335] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.dsv\n'}
+[10.911423] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.sh\n'}
+[10.911500] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/path.dsv\n'}
+[10.911588] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.bash\n'}
+[10.911673] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.sh\n'}
+[10.911754] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.zsh\n'}
+[10.911832] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/local_setup.dsv\n'}
+[10.911907] (dwa_planner) StdoutLine: {'line': b'-- Symlinking: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.dsv\n'}
+[10.921327] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/packages/dwa_planner\n'}
+[10.921951] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig.cmake\n'}
+[10.922200] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/cmake/dwa_plannerConfig-version.cmake\n'}
+[10.922273] (dwa_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/package.xml\n'}
+[10.924312] (dwa_planner) CommandEnded: {'returncode': 0}
+[10.937561] (dwa_planner) JobEnded: {'identifier': 'dwa_planner', 'rc': 0}
+[10.938330] (-) TimerEvent: {}
+[10.938412] (-) EventReactorShutdown: {}
