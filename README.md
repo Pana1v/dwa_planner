@@ -59,9 +59,7 @@ Running the Simulation
 Setting Goal Position
 ---------------------
 
-Set the goal position by modifying the parameters in the launch file or by setting them directly:
-
- `   ros2 run dwa_planner dwa_node --ros-args -p goal_x:=3.0 -p goal_y:=2.0   `
+Done through Inputs in terminal
 
 ### Demo Videos
 | Navigation Demo | Obstacle Avoidance | Dense Obstacles |
