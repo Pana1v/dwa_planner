@@ -36,8 +36,8 @@ class DWA_node : public rclcpp::Node
     max_speed = this->declare_parameter<float>("max_speed", 0.45);
     max_rotation_speed = this->declare_parameter<float>("max_rotation_speed", 4.0);
     time_step = this->declare_parameter<float>("time_step",0.1);
-    declare_parameter<int>("trajectory_length", 300);
-    declare_parameter<float>("tolerance", 0.2);
+    declare_parameter<int>("trajectory_length", 500);
+    declare_parameter<float>("tolerance", 0.25);
     declare_parameter<float>("goal_tolerance", 0.1);
 
     max_speed = this->get_parameter("max_speed").as_double();
@@ -127,7 +127,7 @@ class DWA_node : public rclcpp::Node
         double roll, pitch, yaw;
         m.getRPY(roll, pitch, yaw);   
         int trajectory_length_temp = trajectory_length; 
-         if(odd)trajectory_length_temp = trajectory_length/3;
+         if(odd)trajectory_length_temp = trajectory_length/7;
         // trajectory_length = static_cast<int>(trajectory_length*(speed+0.5)/max_speed);
         for(int i =0;i<trajectory_length_temp;i++)
         {
