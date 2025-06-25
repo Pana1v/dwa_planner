@@ -29,7 +29,14 @@ find_package(ament_index_cpp REQUIRED)
 
 #eXECUTABLE
 add_executable(dwa_node src/dwa_node.cpp)
-
+target_include_directories(dwa_node
+  PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include/${PROJECT_NAME}>
+)
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
 #Listing Dependencies
 ament_target_dependencies(dwa_node
   rclcpp

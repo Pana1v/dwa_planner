@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch/" "DESTINATION" "share/dwa_planner/launch")
+ament_cmake_symlink_install_directory("/home/panav/ros2_ws/src/dwa_planner" DIRECTORY "launch/" "DESTINATION" "share/dwa_planner/launch")
+
 # install("TARGETS" "dwa_node" "DESTINATION" "lib/dwa_planner")
 include("/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 

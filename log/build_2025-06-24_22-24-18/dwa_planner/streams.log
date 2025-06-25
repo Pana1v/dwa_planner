@@ -1,0 +1,67 @@
+[0.009s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.619s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:120:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[1.619s]   120 | vector DWA_node::[01;31m[K<[m[Kpair<double, double>> motion_ranges(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+[1.619s]       |                  [01;31m[K^[m[K
+[1.623s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[1.623s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.623s]   152 |     double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[1.623s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.624s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)[m[K’:
+[1.624s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:171:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::pair<double, double> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.624s]   171 |     for(int i = 0; [01;35m[Ki < all_trajectories.size()[m[K; i++)
+[1.624s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.640s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::clear_trajectory_markers()[m[K’:
+[1.640s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:220:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.640s]   220 | r_marker.header.frame_id = "odom";    if([01;31m[Kodom_data[m[K.header.stamp.sec==0 || scan_data.ranges.empty())
+[1.640s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[1.640s]       |                                          [32m[Krandom_data[m[K
+[1.644s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:220:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[1.644s]   220 | ;    if(odom_data.header.stamp.sec==0 || [01;31m[Kscan_data[m[K.ranges.empty())
+[1.644s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[1.644s] 
+[1.644s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:223:25:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.644s]   223 |         return {0.0, 0.0[01;31m[K}[m[K;
+[1.644s]       |                         [01;31m[K^[m[K
+[1.648s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:226:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_data[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[1.648s]   226 |     double x = [01;31m[Kodom_data[m[K.pose.pose.position.x;
+[1.648s]       |                [01;31m[K^~~~~~~~~[m[K
+[1.648s]       |                [32m[Krandom_data[m[K
+[1.649s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:241:25:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.649s]   241 |         return {0.0, 0.0[01;31m[K}[m[K;
+[1.649s]       |                         [01;31m[K^[m[K
+[1.650s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:274:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_aDWA_node[m[K’ has not been declared
+[1.650s]   274 |         double collision_factor = [01;31m[Kcollision_aDWA_node[m[K::voidance(trajectory, scan_data, odom_data, tolerance);
+[1.650s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.654s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:274:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[1.654s]   274 | ollision_aDWA_node::voidance(trajectory, [01;31m[Kscan_data[m[K, odom_data, tolerance);
+[1.654s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[1.654s] 
+[1.655s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:323:25:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.655s]   323 |         return {0.0, 0.0[01;31m[K}[m[K;
+[1.656s]       |                         [01;31m[K^[m[K
+[1.656s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:334:25:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.656s]   334 |         return {0.0, 0.0[01;31m[K}[m[K;
+[1.656s]       |                         [01;31m[K^[m[K
+[1.656s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:341:44:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.656s]   341 |     return {best_speed, best_rotation_speed[01;31m[K}[m[K;
+[1.656s]       |                                            [01;31m[K^[m[K
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:22:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’
+[1.658s]   425 | pair<double, double> [01;31m[KDWA_node[m[K::dwa_control(const nav_msgs::msg::Odometry& odom_data, const sensor_msgs::msg::LaserScan& scan_data)
+[1.658s]       |                      [01;31m[K^~~~~~~~[m[K
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:22:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’
+[1.658s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.658s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[1.658s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[1.658s]       |       [01;36m[K^~~~~~~~[m[K
+[1.663s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[1.663s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:564:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_control[m[K’ was not declared in this scope
+[1.663s]   564 | auto [best_speed, best_rotation_speed] = [01;31m[Kdwa_control[m[K(current_odom , current_scan);
+[1.663s]       |                                          [01;31m[K^~~~~~~~~~~[m[K
+[1.663s] 
+[2.089s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[2.089s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[2.090s] gmake: *** [Makefile:146: all] Error 2
+[2.092s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

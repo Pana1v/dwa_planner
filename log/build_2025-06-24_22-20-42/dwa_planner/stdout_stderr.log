@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:93:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+   93 | [01;31m[Kdwa_node[m[K::void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:104:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  104 | [01;31m[Kdwa_node[m[K::void scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:110:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  110 | [01;31m[Kdwa_node[m[K::void seek_goal()
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:120:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  120 | [01;31m[Kdwa_node[m[K::vector <pair<double, double>> motion_ranges(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:147:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  147 | [01;31m[Kdwa_node[m[K::pair<double, double> path_gen()
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:158:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  158 | [01;31m[Kdwa_node[m[K::void visualize_trajectories(const vector<vector<pair<double, double>>>& all_trajectories, int best_index)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:217:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  217 | [01;31m[Kdwa_node[m[K::void clear_trajectory_markers()
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:351:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  351 | [01;31m[Kdwa_node[m[K::double collision_adwa_node::voidance(const vector<pair<double, double>>&trajectory, const sensor_msgs::msg::LaserScan& scan_data, const nav_msgs::msg::Odometry& current_odom, double tolerance = 0.2)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  425 | [01;31m[Kdwa_node[m[K::pair<double, double> dwa_control(const nav_msgs::msg::Odometry& odom_data, const sensor_msgs::msg::LaserScan& scan_data)
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:551:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ does not name a type; did you mean ‘[01m[KDWA_node[m[K’?
+  551 | [01;31m[Kdwa_node[m[K::void timer_callback()
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:601:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_node[m[K’ was not declared in this scope; did you mean ‘[01m[KDWA_node[m[K’?
+  601 |     rclcpp::spin(std::make_shared<[01;31m[Kdwa_node[m[K>());
+      |                                   [01;31m[K^~~~~~~~[m[K
+      |                                   [32m[KDWA_node[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:601:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  601 |     rclcpp::spin([01;31m[Kstd::make_shared<dwa_node>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:4[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:601:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  601 |     rclcpp::spin([01;31m[Kstd::make_shared<dwa_node>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

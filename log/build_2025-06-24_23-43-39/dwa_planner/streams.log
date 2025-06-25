@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.580s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:120:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[1.581s]   120 | vector DWA_node::[01;31m[K<[m[Kpair<double, double>> motion_ranges(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+[1.581s]       |                  [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]   152 |     double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[1.583s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)[m[K’:
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:171:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::pair<double, double> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.584s]   171 |     for(int i = 0; [01;35m[Ki < all_trajectories.size()[m[K; i++)
+[1.584s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.588s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[1.588s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:304:22:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’
+[1.589s]   304 | pair<double, double> [01;31m[KDWA_node[m[K::dwa_control(const nav_msgs::msg::Odometry& odom_data, const sensor_msgs::msg::LaserScan& scan_data)
+[1.589s]       |                      [01;31m[K^~~~~~~~[m[K
+[1.589s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:304:22:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::pair<double, double> DWA_node::dwa_control(const Odometry&, const LaserScan&)[m[K’
+[1.589s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[1.589s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[1.589s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[1.589s]       |       [01;36m[K^~~~~~~~[m[K
+[1.593s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[1.593s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:443:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kdwa_control[m[K’ was not declared in this scope
+[1.594s]   443 |     auto [best_speed, best_rotation_speed] = [01;31m[Kdwa_control[m[K(current_odom , current_scan);
+[1.594s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[1.997s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[1.997s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[1.997s] gmake: *** [Makefile:146: all] Error 2
+[1.999s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

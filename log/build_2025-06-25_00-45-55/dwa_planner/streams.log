@@ -1,0 +1,89 @@
+[0.008s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[1.568s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In constructor ‘[01m[KDWA_node::DWA_node()[m[K’:
+[1.568s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:26:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[1.568s]    26 | {   [01;31m[Kpublic[m[K:
+[1.568s]       |     [01;31m[K^~~~~~[m[K
+[1.581s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:61:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[1.581s]    61 |     [01;31m[Kprivate[m[K:
+[1.581s]       |     [01;31m[K^~~~~~~[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:89:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]    89 | void DWA_node::odom_callback[01;31m[K([m[Kconst nav_msgs::msg::Odometry::SharedPtr msg)
+[1.582s]       |                             [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:100:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   100 | void DWA_node::scan_callback[01;31m[K([m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg)
+[1.582s]       |                             [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:106:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   106 | void DWA_node::seek_goal[01;31m[K([m[K)
+[1.582s]       |                         [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:116:54:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   116 | vector <pair<double, double>> DWA_node::motion_ranges[01;31m[K([m[Kdouble speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+[1.582s]       |                                                      [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:143:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   143 | pair<double, double> DWA_node::path_gen[01;31m[K([m[K)
+[1.582s]       |                                        [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:154:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   154 | void DWA_node::visualize_trajectories[01;31m[K([m[Kconst vector<vector<pair<double, double>>>& all_trajectories, int best_index)
+[1.582s]       |                                      [01;31m[K^[m[K
+[1.582s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:213:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.582s]   213 | void DWA_node::clear_trajectory_markers[01;31m[K([m[K)
+[1.582s]       |                                        [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:226:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.583s]   226 | double DWA_node::collision_avoidance[01;31m[K([m[Kconst vector<pair<double, double>>&trajectory, const sensor_msgs::msg::LaserScan& scan_data, const nav_msgs::msg::Odometry& current_odom, double tolerance = 0.2)
+[1.583s]       |                                     [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:300:43:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.583s]   300 | pair<double, double> DWA_node::dwa_control[01;31m[K([m[Kconst nav_msgs::msg::Odometry& odom_data, const sensor_msgs::msg::LaserScan& scan_data)
+[1.583s]       |                                           [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:426:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[1.583s]   426 | void DWA_node::timer_callback[01;31m[K([m[K)
+[1.583s]       |                              [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:474:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.583s]   474 | [01;31m[K{[m[K
+[1.583s]       | [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:479:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.583s]   479 | }
+[1.583s]       |  [01;31m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:26:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.583s]    26 | [01;36m[K{[m[K   public:
+[1.583s]       | [01;36m[K^[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:64:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koscillation_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    64 |     int [01;35m[Koscillation_count[m[K = 0;
+[1.583s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:65:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koscillation_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    65 |     double [01;35m[Koscillation_threshold[m[K = 0.3;
+[1.583s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:66:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kodd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    66 |     bool [01;35m[Kodd[m[K = false;
+[1.583s]       |          [01;35m[K^~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    67 |     double [01;35m[Kmax_speed[m[K, max_rotation_speed, tolerance, goal_tolerance, time_step;
+[1.583s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_rotation_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    67 |     double max_speed, [01;35m[Kmax_rotation_speed[m[K, tolerance, goal_tolerance, time_step;
+[1.583s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:43:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktolerance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    67 |     double max_speed, max_rotation_speed, [01;35m[Ktolerance[m[K, goal_tolerance, time_step;
+[1.583s]       |                                           [01;35m[K^~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_tolerance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.583s]    67 |     double max_speed, max_rotation_speed, tolerance, [01;35m[Kgoal_tolerance[m[K, time_step;
+[1.583s]       |                                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.583s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:70:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.584s]    67 |     double max_speed, max_rotation_speed, tolerance, goal_tolerance, [01;35m[Ktime_step[m[K;
+[1.584s]       |                                                                      [01;35m[K^~~~~~~~~[m[K
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:68:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktrajectory_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.584s]    68 |     int [01;35m[Ktrajectory_length[m[K;
+[1.584s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:76:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.584s]    76 |     double [01;35m[Kgoal_x[m[K, goal_y;
+[1.584s]       |            [01;35m[K^~~~~~[m[K
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:76:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.584s]    76 |     double goal_x, [01;35m[Kgoal_y[m[K;
+[1.584s]       |                    [01;35m[K^~~~~~[m[K
+[1.584s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:77:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_converged[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.584s]    77 |     bool [01;35m[Kgoal_converged[m[K = false;
+[1.584s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.592s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[3.592s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[3.592s] gmake: *** [Makefile:146: all] Error 2
+[3.594s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

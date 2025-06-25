@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:93:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+   93 | DWA_node::[01;31m[Kvoid[m[K odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:104:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+  104 | DWA_node::[01;31m[Kvoid[m[K scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:110:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+  110 | DWA_node::[01;31m[Kvoid[m[K seek_goal()
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:120:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in ‘[01m[Kclass DWA_node[m[K’ does not name a template type
+  120 | DWA_node::[01;31m[Kvector[m[K <pair<double, double>> motion_ranges(double speed, double rotation_speed, double time_step, const nav_msgs::msg::Odometry& odom_data)
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:147:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpair[m[K’ in ‘[01m[Kclass DWA_node[m[K’ does not name a template type
+  147 | DWA_node::[01;31m[Kpair[m[K<double, double> path_gen()
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:158:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+  158 | DWA_node::[01;31m[Kvoid[m[K visualize_trajectories(const vector<vector<pair<double, double>>>& all_trajectories, int best_index)
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:217:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+  217 | DWA_node::[01;31m[Kvoid[m[K clear_trajectory_markers()
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:351:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdouble[m[K’
+  351 | DWA_node::[01;31m[Kdouble[m[K collision_aDWA_node::voidance(const vector<pair<double, double>>&trajectory, const sensor_msgs::msg::LaserScan& scan_data, const nav_msgs::msg::Odometry& current_odom, double tolerance = 0.2)
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpair[m[K’ in ‘[01m[Kclass DWA_node[m[K’ does not name a template type
+  425 | DWA_node::[01;31m[Kpair[m[K<double, double> dwa_control(const nav_msgs::msg::Odometry& odom_data, const sensor_msgs::msg::LaserScan& scan_data)
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:551:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+  551 | DWA_node::[01;31m[Kvoid[m[K timer_callback()
+      |           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

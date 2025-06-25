@@ -1,0 +1,98 @@
+[0.008s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/panav/ros2_ws/src/dwa_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.113s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.170s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.171s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.293s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.314s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.326s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.329s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.376s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.378s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.378s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.379s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.390s] -- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)
+[0.435s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[0.485s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[0.488s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.592s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.592s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/panav/ros2_ws/src/dwa_planner/include>
+[0.592s] -- Configured cppcheck exclude dirs and/or files: 
+[0.599s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.617s] -- Added test 'lint_cmake' to check CMake code style
+[0.625s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.683s] -- Added test 'uncrustify' to check C / C++ code style
+[0.683s] -- Configured uncrustify additional arguments: 
+[0.691s] -- Added test 'xmllint' to check XML markup files
+[0.691s] -- Configuring done
+[0.699s] -- Generating done
+[0.702s] -- Build files have been written to: /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.709s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/panav/ros2_ws/src/dwa_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner
+[0.710s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.744s] [35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[0.759s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[2.292s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In constructor ‘[01m[KDWA_node::DWA_node()[m[K’:
+[2.292s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:26:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.292s]    26 | {   [01;31m[Kpublic[m[K:
+[2.292s]       |     [01;31m[K^~~~~~[m[K
+[2.292s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:64:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[2.292s]    64 |     [01;31m[Kprivate[m[K:
+[2.292s]       |     [01;31m[K^~~~~~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:67:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koscillation_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.293s]    67 |     int [01;35m[Koscillation_count[m[K = 0;
+[2.293s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:68:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koscillation_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.293s]    68 |     double [01;35m[Koscillation_threshold[m[K = 0.3;
+[2.293s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:69:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kodd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.293s]    69 |     bool [01;35m[Kodd[m[K = false;
+[2.293s]       |          [01;35m[K^~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:70:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.293s]    70 |     double [01;35m[Kmax_speed[m[K, max_rotation_speed, tolerance, goal_tolerance, time_step;
+[2.293s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:70:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_rotation_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.293s]    70 |     double max_speed, [01;35m[Kmax_rotation_speed[m[K, tolerance, goal_tolerance, time_step;
+[2.293s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.293s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:70:43:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktolerance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    70 |     double max_speed, max_rotation_speed, [01;35m[Ktolerance[m[K, goal_tolerance, time_step;
+[2.294s]       |                                           [01;35m[K^~~~~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:70:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_tolerance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    70 |     double max_speed, max_rotation_speed, tolerance, [01;35m[Kgoal_tolerance[m[K, time_step;
+[2.294s]       |                                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:70:70:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    70 |     double max_speed, max_rotation_speed, tolerance, goal_tolerance, [01;35m[Ktime_step[m[K;
+[2.294s]       |                                                                      [01;35m[K^~~~~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:71:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktrajectory_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    71 |     int [01;35m[Ktrajectory_length[m[K;
+[2.294s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    79 |     double [01;35m[Kgoal_x[m[K, goal_y;
+[2.294s]       |            [01;35m[K^~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:79:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    79 |     double goal_x, [01;35m[Kgoal_y[m[K;
+[2.294s]       |                    [01;35m[K^~~~~~[m[K
+[2.294s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:80:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_converged[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.294s]    80 |     bool [01;35m[Kgoal_converged[m[K = false;
+[2.294s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.301s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[2.301s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.301s]   152 |     double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[2.301s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.303s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)[m[K’:
+[2.303s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:187:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.303s]   187 |         if([01;35m[Ki == best_index[m[K) {
+[2.303s]       |            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[2.304s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:206:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.304s]   206 |             if([01;35m[Ki!=best_index[m[K && point_count++ >= 100) break;
+[2.304s]       |                [01;35m[K~^~~~~~~~~~~~[m[K
+[2.733s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[2.733s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[2.733s] gmake: *** [Makefile:146: all] Error 2
+[2.735s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
