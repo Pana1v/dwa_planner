@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.057s] [ 50%] Built target dwa_node
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/tester.cpp.o[0m
+[0.065s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:1:24:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[0.065s]     1 | #include "dwa_node.hpp"[01;35m[K>[m[K
+[0.065s]       |                        [01;35m[K^[m[K
+[1.557s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.557s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class DWA_node[m[K’ {aka ‘[01m[Kclass DWA_node[m[K’} has no member named ‘[01m[Krest_path[m[K’; did you mean ‘[01m[KresetPath[m[K’?
+[1.557s]    16 |         node->[01;31m[Krest_path[m[K();
+[1.557s]       |               [01;31m[K^~~~~~~~~[m[K
+[1.557s]       |               [32m[KresetPath[m[K
+[1.841s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/tester.cpp.o] Error 1
+[1.841s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[1.841s] gmake: *** [Makefile:146: all] Error 2
+[1.844s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

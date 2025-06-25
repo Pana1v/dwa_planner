@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/test_node.dir/src/dwa_node.cpp.o: in function `main':
+dwa_node.cpp:(.text+0x500a): multiple definition of `main'; CMakeFiles/test_node.dir/src/tester.cpp.o:tester.cpp:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:522: test_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -210,6 +210,46 @@ dwa_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dwa_node.dir/build.make CMakeFiles/dwa_node.dir/build
 .PHONY : dwa_node/fast
 
+#=============================================================================
+# Target rules for targets named test_node
+
+# Build rule for target.
+test_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_node
+.PHONY : test_node
+
+# fast build rule for target.
+test_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+.PHONY : test_node/fast
+
+src/dwa.o: src/dwa.cpp.o
+.PHONY : src/dwa.o
+
+# target to build an object file
+src/dwa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dwa_node.dir/build.make CMakeFiles/dwa_node.dir/src/dwa.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/dwa.cpp.o
+.PHONY : src/dwa.cpp.o
+
+src/dwa.i: src/dwa.cpp.i
+.PHONY : src/dwa.i
+
+# target to preprocess a source file
+src/dwa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dwa_node.dir/build.make CMakeFiles/dwa_node.dir/src/dwa.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/dwa.cpp.i
+.PHONY : src/dwa.cpp.i
+
+src/dwa.s: src/dwa.cpp.s
+.PHONY : src/dwa.s
+
+# target to generate assembly for a file
+src/dwa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dwa_node.dir/build.make CMakeFiles/dwa_node.dir/src/dwa.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/dwa.cpp.s
+.PHONY : src/dwa.cpp.s
+
 src/dwa_node.o: src/dwa_node.cpp.o
 .PHONY : src/dwa_node.o
 
@@ -234,6 +274,30 @@ src/dwa_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dwa_node.dir/build.make CMakeFiles/dwa_node.dir/src/dwa_node.cpp.s
 .PHONY : src/dwa_node.cpp.s
 
+src/tester.o: src/tester.cpp.o
+.PHONY : src/tester.o
+
+# target to build an object file
+src/tester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/tester.cpp.o
+.PHONY : src/tester.cpp.o
+
+src/tester.i: src/tester.cpp.i
+.PHONY : src/tester.i
+
+# target to preprocess a source file
+src/tester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/tester.cpp.i
+.PHONY : src/tester.cpp.i
+
+src/tester.s: src/tester.cpp.s
+.PHONY : src/tester.s
+
+# target to generate assembly for a file
+src/tester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/tester.cpp.s
+.PHONY : src/tester.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +314,16 @@ help:
 	@echo "... dwa_planner_uninstall"
 	@echo "... uninstall"
 	@echo "... dwa_node"
+	@echo "... test_node"
+	@echo "... src/dwa.o"
+	@echo "... src/dwa.i"
+	@echo "... src/dwa.s"
 	@echo "... src/dwa_node.o"
 	@echo "... src/dwa_node.i"
 	@echo "... src/dwa_node.s"
+	@echo "... src/tester.o"
+	@echo "... src/tester.i"
+	@echo "... src/tester.s"
 .PHONY : help
 
 

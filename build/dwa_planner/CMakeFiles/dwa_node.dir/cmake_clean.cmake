@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dwa_node.dir/src/dwa.cpp.o"
+  "CMakeFiles/dwa_node.dir/src/dwa.cpp.o.d"
   "CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o"
   "CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o.d"
   "dwa_node"

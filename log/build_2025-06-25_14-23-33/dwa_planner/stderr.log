@@ -1,0 +1,16 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:222: dwa_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dwa_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/test_node.dir/src/tester.cpp.o: in function `main':
+tester.cpp:(.text+0x3c5): undefined reference to `DWA_node::resetPath()'
+/usr/bin/ld: tester.cpp:(.text+0x3fe): undefined reference to `DWA_node::get_convergence_time(double, double)'
+/usr/bin/ld: tester.cpp:(.text+0x421): undefined reference to `DWA_node::getPathLength()'
+/usr/bin/ld: CMakeFiles/test_node.dir/src/tester.cpp.o: in function `void __gnu_cxx::new_allocator<DWA_node>::construct<DWA_node>(DWA_node*)':
+tester.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `DWA_node::DWA_node()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:522: test_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

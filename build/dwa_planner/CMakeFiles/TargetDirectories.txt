@@ -1,6 +1,7 @@
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/uninstall.dir
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/dwa_planner_uninstall.dir
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/dwa_node.dir
+/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/test_node.dir
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/test.dir
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/edit_cache.dir
 /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,32 @@
+[31mCMake Error at CMakeLists.txt:32 (add_executable):
+  Target "test_node" links to target "nav2_util::nav2_util" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:32 (add_executable):
+  Target "test_node" links to target "nav2_core::nav2_core" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:32 (add_executable):
+  Target "test_node" links to target "nav2_costmap_2d::nav2_costmap_2d" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:32 (add_executable):
+  Target "test_node" links to target "nav2_common::nav2_common" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:32 (add_executable):
+  Target "test_node" links to target "nav2_msgs::nav2_msgs" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

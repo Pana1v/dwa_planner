@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.053s] [ 25%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/tester.cpp.o[0m
+[0.056s] [ 75%] Built target dwa_node
+[0.059s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/dwa_node.hpp: No such file or directory
+[0.059s]     1 | #include [01;31m[K"include/dwa_node.hpp"[m[K
+[0.059s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.059s] compilation terminated.
+[0.059s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/tester.cpp.o] Error 1
+[0.059s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[0.059s] gmake: *** [Makefile:146: all] Error 2
+[0.061s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

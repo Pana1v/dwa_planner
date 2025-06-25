@@ -1,5 +1,6 @@
-/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/launch/custom_dwa.launch.py
 /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/lib/dwa_planner/dwa_node
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/lib/dwa_planner/test_node
+/home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/launch/custom_dwa.launch.py
 /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/package_run_dependencies/dwa_planner
 /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/ament_index/resource_index/parent_prefix_path/dwa_planner
 /home/panav/ros2_ws/src/dwa_planner/install/dwa_planner/share/dwa_planner/environment/ament_prefix_path.sh

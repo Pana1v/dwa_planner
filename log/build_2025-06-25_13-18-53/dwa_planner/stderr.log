@@ -1,0 +1,27 @@
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:1:24:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+    1 | #include "dwa_node.hpp"[01;35m[K>[m[K
+      |                        [01;35m[K^[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class DWA_node[m[K’ {aka ‘[01m[Kclass DWA_node[m[K’} has no member named ‘[01m[Krest_path[m[K’; did you mean ‘[01m[KresetPath[m[K’?
+   16 |         node->[01;31m[Krest_path[m[K();
+      |               [01;31m[K^~~~~~~~~[m[K
+      |               [32m[KresetPath[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:4[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:27:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvergernce_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kconvergence_time[m[K’?
+   27 |             RCLCPP_INFO(node->get_logger(), "Speed %.2f | Convergence in %.2f", average_speed, [01;31m[Kconvergernce_time[m[K);\
+      |                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/tester.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

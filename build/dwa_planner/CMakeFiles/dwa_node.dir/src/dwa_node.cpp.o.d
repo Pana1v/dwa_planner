@@ -1,7 +1,7 @@
 CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o: \
  /home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp \
  /usr/include/stdc-predef.h \
- /home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp \
+ /home/panav/ros2_ws/src/dwa_planner/include/dwa.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

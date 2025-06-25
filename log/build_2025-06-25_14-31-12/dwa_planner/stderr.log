@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o: in function `void __gnu_cxx::new_allocator<DWA_node>::construct<DWA_node>(DWA_node*)':
+dwa_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `DWA_node::DWA_node()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:222: dwa_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

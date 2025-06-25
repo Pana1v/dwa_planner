@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.061s] [ 50%] Built target dwa_node
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/tester.cpp.o[0m
+[0.069s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/tester.cpp:1:24:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[0.069s]     1 | #include "dwa_node.hpp"[01;35m[K>[m[K
+[0.069s]       |                        [01;35m[K^[m[K
+[1.976s] [100%] [32m[1mLinking CXX executable test_node[0m
+[2.162s] /usr/bin/ld: CMakeFiles/test_node.dir/src/tester.cpp.o: in function `main':
+[2.162s] tester.cpp:(.text+0x3c5): undefined reference to `DWA_node::resetPath()'
+[2.162s] /usr/bin/ld: tester.cpp:(.text+0x3fe): undefined reference to `DWA_node::get_convergence_time(double, double)'
+[2.162s] /usr/bin/ld: tester.cpp:(.text+0x421): undefined reference to `DWA_node::getPathLength()'
+[2.162s] /usr/bin/ld: CMakeFiles/test_node.dir/src/tester.cpp.o: in function `void __gnu_cxx::new_allocator<DWA_node>::construct<DWA_node>(DWA_node*)':
+[2.162s] tester.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `DWA_node::DWA_node()'
+[2.168s] collect2: error: ld returned 1 exit status
+[2.169s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:506: test_node] Error 1
+[2.169s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[2.169s] gmake: *** [Makefile:146: all] Error 2
+[2.171s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

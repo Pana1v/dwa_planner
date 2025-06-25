@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.060s] [ 20%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[0.067s] [ 80%] Built target test_node
+[2.001s] [100%] [32m[1mLinking CXX executable dwa_node[0m
+[2.081s] /usr/bin/ld: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o: in function `void __gnu_cxx::new_allocator<DWA_node>::construct<DWA_node>(DWA_node*)':
+[2.081s] dwa_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8DWA_nodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `DWA_node::DWA_node()'
+[2.085s] collect2: error: ld returned 1 exit status
+[2.086s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:222: dwa_node] Error 1
+[2.087s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dwa_node.dir/all] Error 2
+[2.087s] gmake: *** [Makefile:146: all] Error 2
+[2.089s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

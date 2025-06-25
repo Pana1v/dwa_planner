@@ -1,0 +1,100 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::setGoal(double, double)[m[K’
+   84 | void [01;31m[KDWA_node[m[K::setGoal(double x, double y)
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:84:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::setGoal(double, double)[m[K’
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+   23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kdouble DWA_node::get_convergence_time(double, double)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_Goal[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_goal[m[K’?
+   97 |     [01;31m[Kset_Goal[m[K(target_x, target_y);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kset_goal[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:99:36:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   99 | le(!goal_converged && rclcpp[01;31m[K:[m[Kok())
+      |                             [01;31m[K^[m[K
+      |                             [32m[K::[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:102:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmillisecond[m[K’ is not a member of ‘[01m[Kstd::chrono[m[K’; did you mean ‘[01m[Kmilliseconds[m[K’?
+  102 | sleep_for(std::chrono::[01;31m[Kmillisecond[m[K(100));//
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+      |                        [32m[Kmilliseconds[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:104:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_converged[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_converged[m[K’?
+  104 |     while(![01;31m[Kpath_converged[m[K && timing_started && rclcpp::ok())
+      |            [01;31m[K^~~~~~~~~~~~~~[m[K
+      |            [32m[Kgoal_converged[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:106:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::chrono::stead_clock[m[K’ has not been declared
+  106 | nd_time = std::chrono::[01;31m[Kstead_clock[m[K::now();
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:107:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+  107 | illiseconds>(end_time- [01;31m[Kstart_time[m[K);
+      |                        [01;31m[K^~~~~~~~~~[m[K
+      |                        [32m[Kstrptime[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:108:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kduration[m[K’ was not declared in this scope
+  108 |         return [01;31m[Kduration[m[K.count() / 1000.0;
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:108:16:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:4[m[K,
+                 from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:77:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration[m[K’
+   77 |       struct [01;36m[Kduration[m[K;
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:77:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration[m[K’
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:117:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::resetPath()[m[K’
+  117 | void [01;31m[KDWA_node[m[K::resetPath()
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:117:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::resetPath()[m[K’
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+   23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:154:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |     double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:184:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  184 |         if([01;35m[Ki == best_index[m[K) {
+      |            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:202:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  202 |             if([01;35m[Ki!=best_index[m[K && point_count++ >= 100) break;
+      |                [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:416:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::get_current_x() const[m[K’
+  416 | void [01;31m[KDWA_node[m[K::get_current_x() const{
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:38:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble DWA_node::get_current_x() const[m[K’
+   38 |         double [01;36m[Kget_current_x[m[K() const;
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+   23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:419:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::get_current_y() const[m[K’
+  419 | void [01;31m[KDWA_node[m[K::get_current_y() const{
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:39:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble DWA_node::get_current_y() const[m[K’
+   39 |         double [01;36m[Kget_current_y[m[K() const;
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+   23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_started[m[K’ was not declared in this scope; did you mean ‘[01m[Ktiming_started[m[K’?
+  425 |     if([01;31m[Ktimer_started[m[K && !path_history.empty())
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+      |        [32m[Ktiming_started[m[K
+gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

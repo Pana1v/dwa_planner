@@ -1,0 +1,3 @@
+[ 75%] Built target dwa_node
+[ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/tester.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_node[0m

@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.062s] [ 40%] Built target dwa_node
+[0.067s] [ 60%] [32m[1mLinking CXX executable test_node[0m
+[0.116s] /usr/bin/ld: CMakeFiles/test_node.dir/src/dwa_node.cpp.o: in function `main':
+[0.116s] dwa_node.cpp:(.text+0x500a): multiple definition of `main'; CMakeFiles/test_node.dir/src/tester.cpp.o:tester.cpp:(.text+0x0): first defined here
+[0.767s] collect2: error: ld returned 1 exit status
+[0.768s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:522: test_node] Error 1
+[0.768s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[0.768s] gmake: *** [Makefile:146: all] Error 2
+[0.770s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner

@@ -1,0 +1,100 @@
+[0.009s] Invoking command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o[0m
+[2.101s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::setGoal(double, double)[m[K’
+[2.101s]    84 | void [01;31m[KDWA_node[m[K::setGoal(double x, double y)
+[2.101s]       |      [01;31m[K^~~~~~~~[m[K
+[2.101s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:84:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::setGoal(double, double)[m[K’
+[2.101s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.101s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.101s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.101s]       |       [01;36m[K^~~~~~~~[m[K
+[2.101s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:95:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble DWA_node::get_convergence_time(double, double)[m[K’
+[2.101s]    95 | double [01;31m[KDWA_node[m[K::get_convergence_time(double target_x, double target_y)
+[2.102s]       |        [01;31m[K^~~~~~~~[m[K
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:95:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble DWA_node::get_convergence_time(double, double)[m[K’
+[2.102s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.102s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.102s]       |       [01;36m[K^~~~~~~~[m[K
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:113:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble DWA_node::getPathLength()[m[K’
+[2.102s]   113 | double [01;31m[KDWA_node[m[K::getPathLength()
+[2.102s]       |        [01;31m[K^~~~~~~~[m[K
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:113:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble DWA_node::getPathLength()[m[K’
+[2.102s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.102s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.102s]       |       [01;36m[K^~~~~~~~[m[K
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:117:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::restPath()[m[K’
+[2.102s]   117 | void [01;31m[KDWA_node[m[K::restPath()
+[2.102s]       |      [01;31m[K^~~~~~~~[m[K
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:117:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::restPath()[m[K’
+[2.102s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.102s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.102s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.102s]       |       [01;36m[K^~~~~~~~[m[K
+[2.106s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DWA_node::path_gen()[m[K’:
+[2.106s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:154:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.106s]   154 |     double [01;35m[Ktime_step[m[K = this->get_parameter("time_step").as_double();
+[2.106s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.114s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::visualize_trajectories(const std::vector<std::vector<std::pair<double, double> > >&, int)[m[K’:
+[2.114s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:184:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.114s]   184 |         if([01;35m[Ki == best_index[m[K) {
+[2.114s]       |            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[2.115s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:202:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.115s]   202 |             if([01;35m[Ki!=best_index[m[K && point_count++ >= 100) break;
+[2.115s]       |                [01;35m[K~^~~~~~~~~~~~[m[K
+[2.123s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K At global scope:
+[2.123s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:416:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::get_current_x() const[m[K’
+[2.123s]   416 | void [01;31m[KDWA_node[m[K::get_current_x() const{
+[2.124s]       |      [01;31m[K^~~~~~~~[m[K
+[2.124s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:416:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::get_current_x() const[m[K’
+[2.124s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.124s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.124s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.124s]       |       [01;36m[K^~~~~~~~[m[K
+[2.124s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:419:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DWA_node::get_current_y() const[m[K’
+[2.124s]   419 | void [01;31m[KDWA_node[m[K::get_current_y() const{
+[2.124s]       |      [01;31m[K^~~~~~~~[m[K
+[2.124s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:419:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DWA_node::get_current_y() const[m[K’
+[2.124s] In file included from [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:1[m[K:
+[2.124s] [01m[K/home/panav/ros2_ws/src/dwa_planner/include/dwa_node.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DWA_node[m[K’ defined here
+[2.124s]    23 | class [01;36m[KDWA_node[m[K : public rclcpp::Node
+[2.124s]       |       [01;36m[K^~~~~~~~[m[K
+[2.130s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:[m[K In member function ‘[01m[Kvoid DWA_node::timer_callback()[m[K’:
+[2.130s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_started[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_step[m[K’?
+[2.130s]   425 |     if([01;31m[Ktimer_started[m[K && !path_history.empty())
+[2.130s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.130s]       |        [32m[Ktime_step[m[K
+[2.135s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:425:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_history[m[K’ was not declared in this scope
+[2.135s]   425 |   if(timer_started && ![01;31m[Kpath_history[m[K.empty())
+[2.135s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[2.135s] 
+[2.140s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:427:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_current_x[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_x[m[K’?
+[2.140s]   427 |     double current_x = [01;31m[Kget_current_x[m[K();
+[2.140s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.140s]       |                        [32m[Kcurrent_x[m[K
+[2.146s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:428:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_current_y[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_y[m[K’?
+[2.146s]   428 |     double current_y = [01;31m[Kget_current_y[m[K();
+[2.146s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.146s]       |                        [32m[Kcurrent_y[m[K
+[2.153s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:434:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_path_length[m[K’ was not declared in this scope
+[2.153s]   434 |         [01;31m[Ktotal_path_length[m[K +=distance;
+[2.153s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.159s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:436:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktiming_started[m[K’ was not declared in this scope
+[2.159s]   436 |     if([01;31m[Ktiming_started[m[K)
+[2.159s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.164s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:438:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_history[m[K’ was not declared in this scope
+[2.164s]   438 |         [01;31m[Kpath_history[m[K.push_back(make_pair(get__current_x(), get_current_y()));
+[2.164s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.170s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:438:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kget__current_x[m[K’ was not declared in this scope
+[2.170s]   438 | ry.push_back(make_pair([01;31m[Kget__current_x[m[K(), get_current_y()));
+[2.170s]       |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.170s] 
+[2.177s] [01m[K/home/panav/ros2_ws/src/dwa_planner/src/dwa_node.cpp:438:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_current_y[m[K’ was not declared in this scope
+[2.177s]   438 | pair(get__current_x(), [01;31m[Kget_current_y[m[K()));
+[2.177s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.177s] 
+[5.011s] gmake[2]: *** [CMakeFiles/dwa_node.dir/build.make:76: CMakeFiles/dwa_node.dir/src/dwa_node.cpp.o] Error 1
+[5.012s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_node.dir/all] Error 2
+[5.012s] gmake: *** [Makefile:146: all] Error 2
+[5.014s] Invoked command in '/home/panav/ros2_ws/src/dwa_planner/build/dwa_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panav/ros2_ws/install/turtlebot3_teleop:/home/panav/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/panav/ros2_ws/src/dwa_planner/build/dwa_planner
