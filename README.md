@@ -37,6 +37,7 @@ Installation
 
 Usage
 -----
+https://github.com/Pana1v/dwa_planner/blob/main/demo_videos/dense.gif
 
 Running the Simulation
 ----------------------
