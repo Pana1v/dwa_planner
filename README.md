@@ -37,7 +37,10 @@ Installation
 
 Usage
 -----
-https://github.com/Pana1v/dwa_planner/blob/main/demo_videos/dense.gif
+
+![nav](https://github.com/user-attachments/assets/d65259da-a25f-409d-860f-490cab8f77a7)
+![dense](https://github.com/user-attachments/assets/498b0f07-85ac-4be9-b07d-7f63cc3e06cc)
+![obstacles](https://github.com/user-attachments/assets/ce2c078b-d388-4d8a-ac8b-ebf7fdf5fec1)
 
 Running the Simulation
 ----------------------
